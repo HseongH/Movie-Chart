@@ -1,0 +1,10 @@
+/* HEADER */
+#form--search {
+    width: 200px;
+    padding: 10px;
+}
+
+/* SHOW MOVIE */
+.section__show-movie .movie-display-area .movie-items {
+    width: 50%;
+}

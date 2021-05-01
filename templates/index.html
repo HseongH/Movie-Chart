@@ -4,9 +4,502 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Movie Chart</title>
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@700&display=swap" rel="stylesheet">
+
+    <!-- RESET STYLE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="../static/css/main.css">
+    <link rel="stylesheet" href="../static/css/main-medium.css" media="(max-width: 1030px)">
+    <link rel="stylesheet" href="../static/css/main-small.css" media="(max-width: 630px)">
+    <link rel="stylesheet" href="../static/css/main-exsmall.css" media="(max-width: 460px)">
 </head>
 <body>
-    <script src="../static/js/index.js"></script>
+<div class="body__container">
+
+    <!-- HEADER -->
+    <header class="section">
+        <div class="container">
+
+            <h1 class="logo">
+                <a href="index.html">MovieChart</a>
+            </h1>
+
+            <form action="/search" class="neum" method="post" id="form--search">
+                <input type="text" class="input--text" id="input--search" placeholder="검색">
+
+                <button class="btn btn--search" type="submit">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAD2ElEQVR4nO2aT2gVVxTGv4m2KkntcxURJWgFMSpFC6WliIsUtEgVQXEjguBKV4LriEu7caMrCZZSqtadm6IWrCjRZYu0VtGWqLjQxCiokaj5ubiv+Dxv3jgz7859Su9vd4f3zvedMzP370iRSCQSiUT+ryRVBAXmSfpa0mpJ/ZI+kdQjqVvSuKSHkq5L+l3Sb5LOJ0kyUYWXYABdwGbgLPCSYjwEjgDLO51HKYD1wNWCSacxBZwE+jqdUy6AGnDCQ+KWJ8DuTueXCdAP/JORxDAwCAwAC4Du+v9q9f9uAQ4BtzNiHAdmdjrXJoDPgbEUw1PAMWBJgVhdwAbgSosinAN6qsynEPW7l5b8ZeCzNuJOA3YA4ymxTwMf+syjrMka6Y/998AMTxpLgGspGod9xG/XXFqHt68CnRquD7Fs8q1VxNS6FEM/VKjXC4wYvbvAx1VpZpnponmcv+zrsc/QXQlMGN39VWq2MrLZmJiijQ6voPYBo/0AmB1Cu9HEr8bETwG1a8Co0d8ZSl/APN6c209RYJz35GHQFOBcSPHtRnw4mPhrD331wv/HJJ4mR105frPatH/xIVyEJElGJP3VcOkDSV/6iJ2nAP2mfcmHcAms7lIfQfMUYKFpX/MhXAKru8hH0DwFsBOPUR/CJbC6XobCPAWwk51JH8IleGbas3wEzVOAx6bd7UO4BLbXf+ojaJ4CjJn2fB/CJVhg2vd8BM1TgOumvcyHcAk+Ne0bPoLmKcAfpr3Gh3AR6ouuAXP5Yihxuwy+A0wLIv7awzfGw+2Q4rNw+/aNbAhmQKkbMUMh9YU7tGjkSqinAFhl1gEAX4XQbjSxPMXEjgC6CXDG6IZ591PMnDRGxql4WQzspZlvq9TMMtOHO7Fp5G+gVpHeAPDc6J2qQquIqV0pd2QY6PWsM0Bzx3sfmOtTp6y54ylFGAFWeoid1B97e+cBvvPhv22AmbjjKssEbgNzTsm4q3AnQK14Dmz1nU8pgJ4Ms2O4Pby3HnEDM4C1wM80jzJBilD6CxHcWd1BSbsyfvanpGG59cSopCeS5sgtqFbIfUXSam9vVNJRSXskTW+4/kLStiRJTpT17hVgE2567JNT1Ds8YCvNfcK78zpIEvARsB93aNEOF0kZ59+LIkgSMBvYieskJ3MmfQsY4i3T26qKUMlXYpLrKCV9IbervFjuXe+R9Eju/b4p6UKSJLk3WevJ/qh3uU+oGtw5pX0SXgDbOu0tGLEIikWQFIsgKRZBUuYQubHT3oLRogi3Ou0rKClFuNtpT8EBNgL/4maYQXevI5FIJBKJvF+8AqyNqnlCKGWJAAAAAElFTkSuQmCC" alt="search icon" />
+                </button>
+            </form>
+
+        </div>
+    </header>
+
+    <!-- SHOW MOVIE -->
+    <section class="section section__show-movie">
+        <div class="container">
+
+            <ul class="tab-menu">
+                <li class="menu-items selected">현재 상영작</li>
+
+                <li class="menu-items">개봉 예정작</li>
+            </ul>
+
+            <ol class="movie-display-area">
+                <li class="movie-items">
+                    <div class="movie-pos">
+                        <a href="#">
+                            <img src="../static/img/movie_image.jpg" alt="">
+                        </a>
+                        <span class="viewing-age">전체 관람가</span>
+                    </div>
+
+                    <dl class="movie__des">
+                        <dt class="movie__title">
+                            <a href="#">
+                                비와 당신의 이야기
+                            </a>
+                        </dt>
+
+                        <dd class="grade">
+                            <span class="grade__items">
+                                평점
+                                <strong class="items__des">
+                                    7.65
+                                </strong>
+                            </span>
+
+                            <span class="grade__items">
+                                예매율
+                                <strong class="items__des">
+                                    17.26%
+                                </strong>
+                            </span>
+                        </dd>
+
+                        <dd class="opening-date">2021.04.28</dd>
+                    </dl>
+                </li>
+                <li class="movie-items">
+                    <div class="movie-pos">
+                        <a href="#">
+                            <img src="../static/img/movie_image.jpg" alt="">
+                        </a>
+                        <span class="viewing-age">전체 관람가</span>
+                    </div>
+
+                    <dl class="movie__des">
+                        <dt class="movie__title">
+                            <a href="#">
+                                비와 당신의 이야기
+                            </a>
+                        </dt>
+
+                        <dd class="grade">
+                            <span class="grade__items">
+                                평점
+                                <strong class="items__des">
+                                    7.65
+                                </strong>
+                            </span>
+
+                            <span class="grade__items">
+                                예매율
+                                <strong class="items__des">
+                                    17.26%
+                                </strong>
+                            </span>
+                        </dd>
+
+                        <dd class="opening-date">2021.04.28</dd>
+                    </dl>
+                </li>
+                <li class="movie-items">
+                    <div class="movie-pos">
+                        <a href="#">
+                            <img src="../static/img/movie_image.jpg" alt="">
+                        </a>
+                        <span class="viewing-age">전체 관람가</span>
+                    </div>
+
+                    <dl class="movie__des">
+                        <dt class="movie__title">
+                            <a href="#">
+                                비와 당신의 이야기
+                            </a>
+                        </dt>
+
+                        <dd class="grade">
+                            <span class="grade__items">
+                                평점
+                                <strong class="items__des">
+                                    7.65
+                                </strong>
+                            </span>
+
+                            <span class="grade__items">
+                                예매율
+                                <strong class="items__des">
+                                    17.26%
+                                </strong>
+                            </span>
+                        </dd>
+
+                        <dd class="opening-date">2021.04.28</dd>
+                    </dl>
+                </li>
+                <li class="movie-items">
+                    <div class="movie-pos">
+                        <a href="#">
+                            <img src="../static/img/movie_image.jpg" alt="">
+                        </a>
+                        <span class="viewing-age">전체 관람가</span>
+                    </div>
+
+                    <dl class="movie__des">
+                        <dt class="movie__title">
+                            <a href="#">
+                                비와 당신의 이야기
+                            </a>
+                        </dt>
+
+                        <dd class="grade">
+                            <span class="grade__items">
+                                평점
+                                <strong class="items__des">
+                                    7.65
+                                </strong>
+                            </span>
+
+                            <span class="grade__items">
+                                예매율
+                                <strong class="items__des">
+                                    17.26%
+                                </strong>
+                            </span>
+                        </dd>
+
+                        <dd class="opening-date">2021.04.28</dd>
+                    </dl>
+                </li>
+                <li class="movie-items">
+                    <div class="movie-pos">
+                        <a href="#">
+                            <img src="../static/img/movie_image.jpg" alt="">
+                        </a>
+                        <span class="viewing-age">전체 관람가</span>
+                    </div>
+
+                    <dl class="movie__des">
+                        <dt class="movie__title">
+                            <a href="#">
+                                비와 당신의 이야기
+                            </a>
+                        </dt>
+
+                        <dd class="grade">
+                            <span class="grade__items">
+                                평점
+                                <strong class="items__des">
+                                    7.65
+                                </strong>
+                            </span>
+
+                            <span class="grade__items">
+                                예매율
+                                <strong class="items__des">
+                                    17.26%
+                                </strong>
+                            </span>
+                        </dd>
+
+                        <dd class="opening-date">2021.04.28</dd>
+                    </dl>
+                </li>
+                <li class="movie-items">
+                    <div class="movie-pos">
+                        <a href="#">
+                            <img src="../static/img/movie_image.jpg" alt="">
+                        </a>
+                        <span class="viewing-age">전체 관람가</span>
+                    </div>
+
+                    <dl class="movie__des">
+                        <dt class="movie__title">
+                            <a href="#">
+                                비와 당신의 이야기
+                            </a>
+                        </dt>
+
+                        <dd class="grade">
+                            <span class="grade__items">
+                                평점
+                                <strong class="items__des">
+                                    7.65
+                                </strong>
+                            </span>
+
+                            <span class="grade__items">
+                                예매율
+                                <strong class="items__des">
+                                    17.26%
+                                </strong>
+                            </span>
+                        </dd>
+
+                        <dd class="opening-date">2021.04.28</dd>
+                    </dl>
+                </li>
+                <li class="movie-items">
+                    <div class="movie-pos">
+                        <a href="#">
+                            <img src="../static/img/movie_image.jpg" alt="">
+                        </a>
+                        <span class="viewing-age">전체 관람가</span>
+                    </div>
+
+                    <dl class="movie__des">
+                        <dt class="movie__title">
+                            <a href="#">
+                                비와 당신의 이야기
+                            </a>
+                        </dt>
+
+                        <dd class="grade">
+                            <span class="grade__items">
+                                평점
+                                <strong class="items__des">
+                                    7.65
+                                </strong>
+                            </span>
+
+                            <span class="grade__items">
+                                예매율
+                                <strong class="items__des">
+                                    17.26%
+                                </strong>
+                            </span>
+                        </dd>
+
+                        <dd class="opening-date">2021.04.28</dd>
+                    </dl>
+                </li>
+                <li class="movie-items">
+                    <div class="movie-pos">
+                        <a href="#">
+                            <img src="../static/img/movie_image.jpg" alt="">
+                        </a>
+                        <span class="viewing-age">전체 관람가</span>
+                    </div>
+
+                    <dl class="movie__des">
+                        <dt class="movie__title">
+                            <a href="#">
+                                비와 당신의 이야기
+                            </a>
+                        </dt>
+
+                        <dd class="grade">
+                            <span class="grade__items">
+                                평점
+                                <strong class="items__des">
+                                    7.65
+                                </strong>
+                            </span>
+
+                            <span class="grade__items">
+                                예매율
+                                <strong class="items__des">
+                                    17.26%
+                                </strong>
+                            </span>
+                        </dd>
+
+                        <dd class="opening-date">2021.04.28</dd>
+                    </dl>
+                </li>
+                <li class="movie-items">
+                    <div class="movie-pos">
+                        <a href="#">
+                            <img src="../static/img/movie_image.jpg" alt="">
+                        </a>
+                        <span class="viewing-age">전체 관람가</span>
+                    </div>
+
+                    <dl class="movie__des">
+                        <dt class="movie__title">
+                            <a href="#">
+                                비와 당신의 이야기
+                            </a>
+                        </dt>
+
+                        <dd class="grade">
+                            <span class="grade__items">
+                                평점
+                                <strong class="items__des">
+                                    7.65
+                                </strong>
+                            </span>
+
+                            <span class="grade__items">
+                                예매율
+                                <strong class="items__des">
+                                    17.26%
+                                </strong>
+                            </span>
+                        </dd>
+
+                        <dd class="opening-date">2021.04.28</dd>
+                    </dl>
+                </li>
+                <li class="movie-items">
+                    <div class="movie-pos">
+                        <a href="#">
+                            <img src="../static/img/movie_image.jpg" alt="">
+                        </a>
+                        <span class="viewing-age">전체 관람가</span>
+                    </div>
+
+                    <dl class="movie__des">
+                        <dt class="movie__title">
+                            <a href="#">
+                                비와 당신의 이야기
+                            </a>
+                        </dt>
+
+                        <dd class="grade">
+                            <span class="grade__items">
+                                평점
+                                <strong class="items__des">
+                                    7.65
+                                </strong>
+                            </span>
+
+                            <span class="grade__items">
+                                예매율
+                                <strong class="items__des">
+                                    17.26%
+                                </strong>
+                            </span>
+                        </dd>
+
+                        <dd class="opening-date">2021.04.28</dd>
+                    </dl>
+                </li>
+                <li class="movie-items">
+                    <div class="movie-pos">
+                        <a href="#">
+                            <img src="../static/img/movie_image.jpg" alt="">
+                        </a>
+                        <span class="viewing-age">전체 관람가</span>
+                    </div>
+
+                    <dl class="movie__des">
+                        <dt class="movie__title">
+                            <a href="#">
+                                비와 당신의 이야기
+                            </a>
+                        </dt>
+
+                        <dd class="grade">
+                            <span class="grade__items">
+                                평점
+                                <strong class="items__des">
+                                    7.65
+                                </strong>
+                            </span>
+
+                            <span class="grade__items">
+                                예매율
+                                <strong class="items__des">
+                                    17.26%
+                                </strong>
+                            </span>
+                        </dd>
+
+                        <dd class="opening-date">2021.04.28</dd>
+                    </dl>
+                </li>
+            </ol>
+
+            <ol class="page-move neum">
+                <li class="move-items left-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 172 172"
+                        style=" fill:#000000;">
+                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                            font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                            style="mix-blend-mode: normal">
+                            <path d="M0,172v-172h172v172z" fill="none"></path>
+                            <g fill="#ffffff">
+                                <path
+                                    d="M102.29297,23.01172l-59.125,59.125l-3.69531,3.86328l3.69531,3.86328l59.125,59.125l7.72656,-7.72656l-55.26172,-55.26172l55.26172,-55.26172z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </li>
+
+                <li class="move-items selected">1</li>
+
+                <li class="move-items">2</li>
+
+                <li class="move-items">3</li>
+
+                <li class="move-items">4</li>
+
+                <li class="move-items">5</li>
+
+                <li class="move-items right-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 172 172"
+                        style=" fill:#000000;">
+                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                            font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                            style="mix-blend-mode: normal">
+                            <path d="M0,172v-172h172v172z" fill="none"></path>
+                            <g fill="#ffffff">
+                                <path
+                                    d="M69.70703,23.01172l-7.72656,7.72656l55.26172,55.26172l-55.26172,55.26172l7.72656,7.72656l59.125,-59.125l3.69531,-3.86328l-3.69531,-3.86328z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </li>
+            </ol>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="section">
+        <div class="container">
+
+            <h2 class="logo footer__logo">
+                <a href="index.html">MovieChart</a>
+            </h2>
+
+            <div class="license">
+                <a href="https://icons8.com/" target="_blank">
+                    <strong>icon by</strong>
+                    https://icons8.com/
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+</div>
+
+<script src="../static/js/index.js"></script>
 </body>
 </html>

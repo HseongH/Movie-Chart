@@ -1,0 +1,41 @@
+/* HEADER */
+header.section .logo {
+    font-size: 40px;
+}
+
+#form--search {
+    width: auto;
+}
+
+#input--search {
+    display: none;
+}
+
+/* SHOW MOVIE */
+.section__show-movie .tab-menu .menu-items {
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.section__show-movie .movie-display-area .movie-items {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.section__show-movie .movie-display-area .movie-items .movie__des .movie__title {
+    font-size: 20px;
+}
+
+.section__show-movie .movie-display-area .movie-items .movie__des .grade,
+.section__show-movie .movie-display-area .movie-items .movie__des .opening-date {
+    font-size: 16px;
+}
+
+/* FOOTER */
+footer.section .footer__logo {
+    font-size: 25px;
+}
+
+footer.section .license {
+    font-size: 12px;
+}

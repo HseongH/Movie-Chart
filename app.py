@@ -31,13 +31,13 @@ def homework():
 
 #     return jsonify({'msg': '주문 완료'})
 
-@app.route('/order', methods=['GET'])
-def view_orders():
+@app.route('/search', methods=['GET'])
+def view_result():
     query_receive = request.form['query']
 
     movie_list = get_movie_list(query_receive)
 
-    return jsonify({'list': movie_list})
+    return jsonify({ 'list': movie_list['items'] })
 
 
 if __name__ == '__main__':
