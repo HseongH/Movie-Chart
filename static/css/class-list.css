@@ -1,6 +1,10 @@
-/* HIDE */
+/* HIDE & SHOW */
 .hide {
-    display: none;
+    display: none !important;
+}
+
+.show {
+    display: block !important;
 }
 
 /* DISABLED */

@@ -20,6 +20,7 @@ header.section .search-area {
     flex-direction: column;
     padding: 0 5%;
     box-sizing: border-box;
+    display: none;
 }
 
 header.section .search-area .search-close {
@@ -46,7 +47,6 @@ header.section .search-area .search-close {
 
 .section__show-movie .movie-display-area .movie-items {
     width: 100%;
-    padding: 10px 20px;
 }
 
 .section__show-movie .movie-display-area .movie-items .movie__des .movie__title {
