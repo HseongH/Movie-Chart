@@ -1,3 +1,8 @@
+/* SECTION */
+.section .container {
+    width: 95%;
+}
+
 /* HEADER */
 #form--search {
     width: 200px;

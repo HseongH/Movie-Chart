@@ -56,15 +56,15 @@ img {
 
 /* VENDOR PREFIX */
 .input-box::-webkit-input-placeholder {
-    color: #ccc;
+    color: #ddd;
 }
 
 .input-box::-ms-input-placeholder {
-    color: #ccc;
+    color: #ddd;
 }
 
 .input-box::-moz-input-placeholder {
-    color: #ccc;
+    color: #ddd;
 }
 
 /* NEUMORPHISM */
@@ -100,6 +100,12 @@ header.section .logo a {
     color: #C23838;
 }
 
+header.section .mobile-search {
+    padding: 10px;
+    border-radius: 50%;
+    display: none;
+}
+
 #form--search {
     width: 300px;
     display: flex;
@@ -114,8 +120,15 @@ header.section .logo a {
     flex: 1;
 }
 
-header.section .btn--search {
+header.section .btn--search,
+header.section .mobile-search .btn--search {
     width: 25px;
+}
+
+header.section .search-area .search-close {
+    margin-top: 10px;
+    font-size: 12px;
+    display: none;
 }
 
 /* SHOW MOVIE */

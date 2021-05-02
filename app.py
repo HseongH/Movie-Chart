@@ -33,9 +33,9 @@ def homework():
 
 @app.route('/search', methods=['GET'])
 def view_result():
-    query_receive = request.form['query']
+    # query_receive = request.form['query']
 
-    movie_list = get_movie_list(query_receive)
+    movie_list = get_movie_list('비와 당신의 이야기')
 
     return jsonify({ 'list': movie_list['items'] })
 
