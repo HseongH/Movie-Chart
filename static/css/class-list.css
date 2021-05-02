@@ -2,3 +2,8 @@
 .hide {
     display: none;
 }
+
+/* DISABLED */
+.disabled {
+    opacity: .3;
+}

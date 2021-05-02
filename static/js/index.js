@@ -1,17 +1,38 @@
-const xhr = new XMLHttpRequest();
+const movieChart = {
+    createObj: ns => {
+        let parent = movieChart;
+        let newObj = ns.split('.');
+        
+        if (newObj[0] === 'movieChart') {
+            newObj = newObj.slice(1);
+        }
 
-xhr.open('GET', '/search', true);
+        const loop = newObj.length;
 
-xhr.setRequestHeader('content-type', 'application/json');
+        for (let i = 0; i < loop; i++) {
+            if (!parent[newObj[i]]) {
+                parent[newObj[i]] = {};
+            }
 
-xhr.send();
+            parent = parent[newObj[i]];
+        }
 
-xhr.onreadystatechange = () => {
-    if (xhr.readyState !== XMLHttpRequest.DONE) return;
-
-    if (xhr.status === 200) {
-        console.log(JSON.parse(xhr.response));
-    } else {
-        console.error('Error', xhr.status, xhr.statusText);
+        return parent;
     }
+};
+
+// FIND SIBLING ELEMENTS
+movieChart.findSiblings = elem => {
+    const siblings = [];
+    let navElem = elem.parentNode.firstChild;
+
+    while (navElem) {
+        if (navElem.nodeType === 1 && navElem !== elem) {
+            siblings.push(navElem);
+        }
+
+        navElem = navElem.nextSibling;
+    }
+
+    return siblings;
 }
