@@ -4,16 +4,16 @@
 			"title": "비와 당신의 이야기",
 			"image": "https://movie-phinf.pstatic.net/20210405_289/1617598543594hmu5r_JPEG/movie_image.jpg",
 			"viewingAge": "전체 관람가",
-			"grade": "7.30",
-			"rate": "17.11",
+			"grade": "7.24",
+			"rate": "17.01",
 			"openingDate": "2021.04.28"
 		},
 		{
 			"title": "더 스파이",
 			"image": "https://movie-phinf.pstatic.net/20210402_102/1617353946207E9zfG_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
-			"grade": "8.53",
-			"rate": "14.41",
+			"grade": "8.55",
+			"rate": "14.37",
 			"openingDate": "2021.04.28"
 		},
 		{
@@ -21,7 +21,7 @@
 			"image": "https://movie-phinf.pstatic.net/20210429_50/1619658051996HIPXs_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
 			"grade": "7.73",
-			"rate": "11.07",
+			"rate": "10.93",
 			"openingDate": "2021.03.03"
 		},
 		{
@@ -29,7 +29,7 @@
 			"image": "https://movie-phinf.pstatic.net/20210308_97/1615182990261ekXlL_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
 			"grade": "6.39",
-			"rate": "8.83",
+			"rate": "8.66",
 			"openingDate": "2021.04.15"
 		},
 		{
@@ -37,23 +37,23 @@
 			"image": "https://movie-phinf.pstatic.net/20210126_174/1611638248803840HH_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
 			"grade": "9.30",
-			"rate": "7.2",
+			"rate": "7.13",
 			"openingDate": "2021.01.27"
 		},
 		{
 			"title": "노매드랜드",
 			"image": "https://movie-phinf.pstatic.net/20210325_116/16166363029599OMXS_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
-			"grade": "8.42",
-			"rate": "6.4",
+			"grade": "8.43",
+			"rate": "6.38",
 			"openingDate": "2021.04.15"
 		},
 		{
 			"title": "명탐정 코난: 비색의 탄환",
 			"image": "https://movie-phinf.pstatic.net/20210325_146/1616648170782LcQeF_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
-			"grade": "8.97",
-			"rate": "5.43",
+			"grade": "8.96",
+			"rate": "5.44",
 			"openingDate": "2021.04.16"
 		},
 		{
@@ -61,15 +61,15 @@
 			"image": "https://movie-phinf.pstatic.net/20210406_131/1617688160755B157W_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
 			"grade": "7.64",
-			"rate": "5.06",
+			"rate": "5.02",
 			"openingDate": "2021.04.21"
 		},
 		{
 			"title": "좋은 빛, 좋은 공기",
 			"image": "https://movie-phinf.pstatic.net/20210412_56/1618208167180sCUVq_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
-			"grade": "7.10",
-			"rate": "1.92",
+			"grade": "7.15",
+			"rate": "1.89",
 			"openingDate": "2021.04.28"
 		},
 		{
@@ -85,23 +85,23 @@
 			"image": "https://movie-phinf.pstatic.net/20210401_210/1617254637218tb3pX_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
 			"grade": "9.23",
-			"rate": "1.72",
+			"rate": "1.66",
 			"openingDate": "2021.04.28"
 		},
 		{
 			"title": "어른들은 몰라요",
 			"image": "https://movie-phinf.pstatic.net/20210416_272/16185371259377meLU_JPEG/movie_image.jpg",
 			"viewingAge": "청소년 관람불가",
-			"grade": "5.79",
-			"rate": "1.63",
+			"grade": "5.77",
+			"rate": "1.61",
 			"openingDate": "2021.04.15"
 		},
 		{
 			"title": "극장판 바다 탐험대 옥토넛 : 불의 고리 대폭발",
 			"image": "https://movie-phinf.pstatic.net/20210402_32/1617325209162bccjm_JPEG/movie_image.jpg",
 			"viewingAge": "전체 관람가",
-			"grade": "9.18",
-			"rate": "1.55",
+			"grade": "9.25",
+			"rate": "1.6",
 			"openingDate": "2021.04.28"
 		},
 		{
@@ -109,7 +109,7 @@
 			"image": "https://movie-phinf.pstatic.net/20210429_261/1619671359642hcXfp_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
 			"grade": "8.78",
-			"rate": "1.3",
+			"rate": "1.32",
 			"openingDate": "2021.04.07"
 		},
 		{
@@ -117,8 +117,16 @@
 			"image": "https://movie-phinf.pstatic.net/20210402_284/1617324715447E4OMx_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
 			"grade": "9.02",
-			"rate": "1.04",
+			"rate": "1.06",
 			"openingDate": "2021.04.29"
+		},
+		{
+			"title": "고질라 VS. 콩",
+			"image": "https://movie-phinf.pstatic.net/20210310_199/1615367075185E9pMt_JPEG/movie_image.jpg",
+			"viewingAge": "12세 관람가",
+			"grade": "8.25",
+			"rate": "0.53",
+			"openingDate": "2021.03.25"
 		},
 		{
 			"title": "유다 그리고 블랙 메시아",
@@ -129,19 +137,11 @@
 			"openingDate": "2021.04.22"
 		},
 		{
-			"title": "고질라 VS. 콩",
-			"image": "https://movie-phinf.pstatic.net/20210310_199/1615367075185E9pMt_JPEG/movie_image.jpg",
-			"viewingAge": "12세 관람가",
-			"grade": "8.25",
-			"rate": "0.47",
-			"openingDate": "2021.03.25"
-		},
-		{
 			"title": "소년시절의 너",
 			"image": "https://movie-phinf.pstatic.net/20210405_256/1617599382478i4Kkp_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
 			"grade": "9.26",
-			"rate": "0.42",
+			"rate": "0.45",
 			"openingDate": "2021.04.22"
 		},
 		{
@@ -149,7 +149,7 @@
 			"image": "https://movie-phinf.pstatic.net/20210412_226/1618192532740Fjxab_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
 			"grade": "8.67",
-			"rate": "0.36",
+			"rate": "0.35",
 			"openingDate": "2021.04.07"
 		},
 		{
@@ -161,36 +161,36 @@
 			"openingDate": "2021.04.15"
 		},
 		{
-			"title": "무순, 세상을 가로질러",
-			"image": "https://movie-phinf.pstatic.net/20210325_104/1616662341461F1AMq_JPEG/movie_image.jpg",
-			"viewingAge": "전체 관람가",
-			"grade": "9.00",
-			"rate": "0.3",
-			"openingDate": "2021.04.22"
-		},
-		{
 			"title": "소울",
 			"image": "https://movie-phinf.pstatic.net/20210107_160/1609984702837oNdmw_JPEG/movie_image.jpg",
 			"viewingAge": "전체 관람가",
 			"grade": "9.30",
-			"rate": "0.29",
+			"rate": "0.31",
 			"openingDate": "2021.01.20"
+		},
+		{
+			"title": "무순, 세상을 가로질러",
+			"image": "https://movie-phinf.pstatic.net/20210325_104/1616662341461F1AMq_JPEG/movie_image.jpg",
+			"viewingAge": "전체 관람가",
+			"grade": "9.00",
+			"rate": "0.29",
+			"openingDate": "2021.04.22"
+		},
+		{
+			"title": "적호서생",
+			"image": "https://movie-phinf.pstatic.net/20210408_78/1617857011111FfSJs_JPEG/movie_image.jpg",
+			"viewingAge": "12세 관람가",
+			"grade": "8.12",
+			"rate": "0.26",
+			"openingDate": "2021.04.29"
 		},
 		{
 			"title": "플립",
 			"image": "https://movie-phinf.pstatic.net/20210408_45/1617845315531G31zb_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
 			"grade": "9.28",
-			"rate": "0.27",
+			"rate": "0.26",
 			"openingDate": "2021.04.21"
-		},
-		{
-			"title": "적호서생",
-			"image": "https://movie-phinf.pstatic.net/20210408_78/1617857011111FfSJs_JPEG/movie_image.jpg",
-			"viewingAge": "12세 관람가",
-			"grade": "8.06",
-			"rate": "0.25",
-			"openingDate": "2021.04.29"
 		},
 		{
 			"title": "섀도우 클라우드",
@@ -201,11 +201,19 @@
 			"openingDate": "2021.04.22"
 		},
 		{
+			"title": "화녀",
+			"image": "https://movie-phinf.pstatic.net/20210423_241/1619153395154rf6YC_JPEG/movie_image.jpg",
+			"viewingAge": "청소년 관람불가",
+			"grade": "8.71",
+			"rate": "0.24",
+			"openingDate": "2021.05.01"
+		},
+		{
 			"title": "마크맨",
 			"image": "https://movie-phinf.pstatic.net/20210406_200/16176888687481ScOw_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
-			"grade": "5.88",
-			"rate": "0.25",
+			"grade": "6.00",
+			"rate": "0.24",
 			"openingDate": "2021.04.28"
 		},
 		{
@@ -217,27 +225,11 @@
 			"openingDate": "2021.04.29"
 		},
 		{
-			"title": "화녀",
-			"image": "https://movie-phinf.pstatic.net/20210423_241/1619153395154rf6YC_JPEG/movie_image.jpg",
-			"viewingAge": "청소년 관람불가",
-			"grade": "8.71",
-			"rate": "0.22",
-			"openingDate": "2021.05.01"
-		},
-		{
 			"title": "바그다드 카페 : 디렉터스컷",
 			"image": "https://movie-phinf.pstatic.net/20210416_103/1618563305266ekn4z_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
 			"grade": "9.05",
 			"openingDate": "2021.04.28"
-		},
-		{
-			"title": "라야와 마지막 드래곤",
-			"image": "https://movie-phinf.pstatic.net/20210215_30/1613366376318deAa1_JPEG/movie_image.jpg",
-			"viewingAge": "전체 관람가",
-			"grade": "9.15",
-			"rate": "0.2",
-			"openingDate": "2021.03.04"
 		},
 		{
 			"title": "조제, 호랑이 그리고 물고기들",
@@ -252,14 +244,22 @@
 			"image": "https://movie-phinf.pstatic.net/20210312_260/1615527701881YmFce_JPEG/movie_image.jpg",
 			"viewingAge": "전체 관람가",
 			"grade": "7.24",
-			"rate": "0.19",
+			"rate": "0.18",
 			"openingDate": "2021.04.08"
+		},
+		{
+			"title": "라야와 마지막 드래곤",
+			"image": "https://movie-phinf.pstatic.net/20210215_30/1613366376318deAa1_JPEG/movie_image.jpg",
+			"viewingAge": "전체 관람가",
+			"grade": "9.15",
+			"rate": "0.18",
+			"openingDate": "2021.03.04"
 		},
 		{
 			"title": "아무도 없는 곳",
 			"image": "https://movie-phinf.pstatic.net/20210318_169/1616050035638vpyp7_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
-			"grade": "6.98",
+			"grade": "6.97",
 			"rate": "0.17",
 			"openingDate": "2021.03.31"
 		},
@@ -267,7 +267,7 @@
 			"title": "타인의 친절",
 			"image": "https://movie-phinf.pstatic.net/20210414_289/1618363382896pPmAf_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
-			"grade": "8.71",
+			"grade": "8.73",
 			"rate": "0.16",
 			"openingDate": "2021.04.07"
 		},
@@ -276,7 +276,7 @@
 			"image": "https://movie-phinf.pstatic.net/20210208_255/1612760227924x9jop_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
 			"grade": "8.93",
-			"rate": "0.16",
+			"rate": "0.14",
 			"openingDate": "2021.03.04"
 		},
 		{
@@ -296,14 +296,6 @@
 			"openingDate": "2021.04.01"
 		},
 		{
-			"title": "비밀의 정원",
-			"image": "https://movie-phinf.pstatic.net/20210316_102/1615869903057Yyhg8_JPEG/movie_image.jpg",
-			"viewingAge": "12세 관람가",
-			"grade": "8.44",
-			"rate": "0.08",
-			"openingDate": "2021.04.08"
-		},
-		{
 			"title": "피아니스트",
 			"image": "https://movie-phinf.pstatic.net/20150608_292/1433754164299kVDXs_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
@@ -312,12 +304,12 @@
 			"openingDate": "2015.06.18"
 		},
 		{
-			"title": "스프링 송",
-			"image": "https://movie-phinf.pstatic.net/20210412_168/1618215061524JTs0f_JPEG/movie_image.jpg",
-			"viewingAge": "전체 관람가",
-			"grade": "9.65",
-			"rate": "0.07",
-			"openingDate": "2021.04.21"
+			"title": "비밀의 정원",
+			"image": "https://movie-phinf.pstatic.net/20210316_102/1615869903057Yyhg8_JPEG/movie_image.jpg",
+			"viewingAge": "12세 관람가",
+			"grade": "8.44",
+			"rate": "0.08",
+			"openingDate": "2021.04.08"
 		},
 		{
 			"title": "스파이의 아내",
@@ -326,6 +318,14 @@
 			"grade": "8.21",
 			"rate": "0.07",
 			"openingDate": "2021.03.25"
+		},
+		{
+			"title": "스프링 송",
+			"image": "https://movie-phinf.pstatic.net/20210412_168/1618215061524JTs0f_JPEG/movie_image.jpg",
+			"viewingAge": "전체 관람가",
+			"grade": "9.65",
+			"rate": "0.07",
+			"openingDate": "2021.04.21"
 		},
 		{
 			"title": "나소흑전기: 첫만남편",
@@ -438,20 +438,20 @@
 			"openingDate": "2019.02.27"
 		},
 		{
-			"title": "더 박스",
-			"image": "https://movie-phinf.pstatic.net/20210315_37/1615794044458lhiGN_JPEG/movie_image.jpg",
-			"viewingAge": "12세 관람가",
-			"grade": "8.94",
-			"rate": "0.01",
-			"openingDate": "2021.03.24"
-		},
-		{
 			"title": "이별의 아침에 약속의 꽃을 장식하자",
 			"image": "https://movie-phinf.pstatic.net/20200429_224/1588123945539TD8o5_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
 			"grade": "8.87",
 			"rate": "0.01",
 			"openingDate": "2020.05.06"
+		},
+		{
+			"title": "더 박스",
+			"image": "https://movie-phinf.pstatic.net/20210315_37/1615794044458lhiGN_JPEG/movie_image.jpg",
+			"viewingAge": "12세 관람가",
+			"grade": "8.92",
+			"rate": "0.01",
+			"openingDate": "2021.03.24"
 		},
 		{
 			"title": "실버라이닝 플레이북",
@@ -559,7 +559,7 @@
 			"title": "프라미싱 영 우먼",
 			"image": "https://movie-phinf.pstatic.net/20210208_83/1612747165478tIX9H_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
-			"grade": "8.26",
+			"grade": "8.25",
 			"rate": "0.01",
 			"openingDate": "2021.02.24"
 		},
@@ -817,14 +817,6 @@
 			"grade": "5.71",
 			"rate": "0.01",
 			"openingDate": "2010.05.13"
-		},
-		{
-			"title": "해피 투게더",
-			"image": "https://movie-phinf.pstatic.net/20210111_41/1610333478672K6ihS_JPEG/movie_image.jpg",
-			"viewingAge": "15세 관람가",
-			"grade": "9.20",
-			"rate": "0.01",
-			"openingDate": "2021.02.04"
 		},
 		{
 			"title": "리틀 포레스트",

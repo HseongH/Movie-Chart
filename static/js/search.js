@@ -3,6 +3,7 @@ movieChart.createObj('search');
 movieChart.search.searchMovie = query => {
     const xhr = new XMLHttpRequest();
     const search = JSON.stringify(query);
+    console.log(typeof(search));
 
     xhr.open('GET', '/search?query=' + search, true);
 
@@ -21,8 +22,11 @@ movieChart.search.searchMovie = query => {
     }
 }
 
-movieChart.search.searchForm = document.querySelector('.btn--search');
+movieChart.search.searchForm = document.getElementById('form--search');
+movieChart.search.searchInput = document.getElementById('input--search');
+
+
 movieChart.search.searchForm.addEventListener('submit', function() {
-    const value = document.getElementById('input--search').value;
+    const value = movieChart.search.searchInput.value;
     movieChart.search.searchMovie(value);
-})
+});
