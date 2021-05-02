@@ -149,15 +149,15 @@
 			"openingDate": "2021.05.13"
 		},
 		{
-			"title": "도라에몽: 스탠바이미 2",
-			"image": "https://movie-phinf.pstatic.net/20210419_157/1618799562907KW2ld_JPEG/movie_image.jpg",
-			"viewingAge": "전체 관람가",
-			"openingDate": "2021.05.19"
-		},
-		{
 			"title": "분노의 질주: 더 얼티메이트",
 			"image": "https://movie-phinf.pstatic.net/20210421_37/1618971733493B4ykS_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
+			"openingDate": "2021.05.19"
+		},
+		{
+			"title": "도라에몽: 스탠바이미 2",
+			"image": "https://movie-phinf.pstatic.net/20210419_157/1618799562907KW2ld_JPEG/movie_image.jpg",
+			"viewingAge": "전체 관람가",
 			"openingDate": "2021.05.19"
 		},
 		{

@@ -1,17 +1,28 @@
-const xhr = new XMLHttpRequest();
+movieChart.createObj('search');
 
-xhr.open('GET', '/search', true);
+movieChart.search.searchMovie = query => {
+    const xhr = new XMLHttpRequest();
+    const search = JSON.stringify(query);
 
-xhr.setRequestHeader('content-type', 'application/json');
+    xhr.open('GET', '/search?query=' + search, true);
 
-xhr.send();
+    xhr.setRequestHeader('content-type', 'application/json');
 
-xhr.onreadystatechange = () => {
-    if (xhr.readyState !== XMLHttpRequest.DONE) return;
+    xhr.send();
 
-    if (xhr.status === 200) {
-        console.log(JSON.parse(xhr.response));
-    } else {
-        console.error('Error', xhr.status, xhr.statusText);
+    xhr.onreadystatechange = () => {
+        if (xhr.readyState !== XMLHttpRequest.DONE) return;
+
+        if (xhr.status === 200) {
+            console.log(JSON.parse(xhr.response));
+        } else {
+            console.error('Error', xhr.status, xhr.statusText);
+        }
     }
 }
+
+movieChart.search.searchForm = document.querySelector('.btn--search');
+movieChart.search.searchForm.addEventListener('submit', function() {
+    const value = document.getElementById('input--search').value;
+    movieChart.search.searchMovie(value);
+})
