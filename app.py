@@ -1,6 +1,7 @@
 from flask import Flask, render_template, jsonify, request
 import requests
 import json
+from crawling import currently_being_screened, works_to_be_screend
 
 app = Flask(__name__)
 
@@ -18,6 +19,9 @@ def get_movie_list(query):
     movie_list = json.loads(r.text)
 
     return movie_list
+
+currently_being_screened()
+works_to_be_screend()
 
 @app.route('/')
 def homework():
@@ -37,7 +41,7 @@ def view_result():
 
     movie_list = get_movie_list('비와 당신의 이야기')
     
-    return jsonify({ 'list': movie_list['items'] })
+    return jsonify({ 'list': movie_list })
 
 
 if __name__ == '__main__':
