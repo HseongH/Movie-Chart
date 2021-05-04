@@ -150,21 +150,27 @@ header.section .search-area .search-close {
     height: 100%;
     display: inline-flex;
     align-items: center;
-    box-sizing: border-box;
-    padding: 0 30px;
-    cursor: pointer;
+}
+
+.section__show-movie .tab-menu .menu-items a {
+    padding: 10px 30px;
 }
 
 .section__show-movie .tab-menu .menu-items.selected {
     border-bottom: 3px solid #C23838;
+}
+
+.section__show-movie .tab-menu .menu-items.selected a {
     color: #C23838;
 }
 
 .section__show-movie .movie-display-area {
     padding: 30px 0;
+    min-height: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
+    font-size: 25px;
 }
 
 .section__show-movie .movie-display-area .movie-items {
@@ -174,9 +180,11 @@ header.section .search-area .search-close {
 }
 
 .section__show-movie .movie-display-area .movie-items .movie-pos {
+    width: 100%;
     border-radius: 15px;
     overflow: hidden;
     position: relative;
+    background: #20222b;
 }
 
 .section__show-movie .movie-display-area .movie-items .movie-pos .viewing-age {
@@ -186,7 +194,9 @@ header.section .search-area .search-close {
     position: absolute;
     top: 20px;
     right: 20px;
-    background: #fff no-repeat center;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     border-radius: 50%;
 }
@@ -198,6 +208,8 @@ header.section .search-area .search-close {
 
 .section__show-movie .movie-display-area .movie-items .movie__des .movie__title {
     font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .section__show-movie .movie-display-area .movie-items .movie__des .movie__title,
@@ -210,7 +222,7 @@ header.section .search-area .search-close {
     font-size: 12px;
 }
 
-.section__show-movie .movie-display-area .movie-items .movie__des .grade .grade__items:last-child::before {
+.section__show-movie .movie-display-area .movie-items .movie__des .grade .grade__items:nth-child(2n)::before {
     content: "";
     display: inline-block;
     width: 4px;

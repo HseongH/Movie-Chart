@@ -1,6 +1,7 @@
 movieChart.createObj('showMovieTableOfContents');
 
 movieChart.showMovieTableOfContents.movieDisplayArea = document.querySelector('.movie-display-area');
+movieChart.showMovieTableOfContents.movieItems;
 
 movieChart.showMovieTableOfContents.makeList = info => {
     const movieItems = document.createElement('li');
@@ -11,12 +12,8 @@ movieChart.showMovieTableOfContents.makeList = info => {
     const movieDes = document.createElement('dl');
     const movieTit = document.createElement('dt');
     const titLink = document.createElement('a');
-    const grade = document.createElement('dd');
-    const gradeItem = document.createElement('span');
-    const gradeCon = document.createElement('strong');
-    const rateItem = document.createElement('span');
-    const rateCon = document.createElement('strong');
-    const open = document.createElement('dd');
+
+    const backgroundImage = movieChart.viewingAge[info.viewingAge];
 
     movieItems.setAttribute('class', 'movie-items');
     // POSTER AREA
@@ -26,6 +23,7 @@ movieChart.showMovieTableOfContents.makeList = info => {
     posImg.alt = info.title;
     viewingAge.setAttribute('class', 'viewing-age');
     viewingAge.textContent = info.viewingAge;
+    viewingAge.style.backgroundImage = `url(${backgroundImage})`;
     
     posLink.appendChild(posImg);
     poster.appendChild(posLink);
@@ -38,37 +36,62 @@ movieChart.showMovieTableOfContents.makeList = info => {
     titLink.href = '#';
     titLink.textContent = info.title;
     movieTit.appendChild(titLink);
-    // GRADE AREA
-    grade.setAttribute('class', 'grade');
-    gradeItem.setAttribute('class', 'grade__items');
-    gradeCon.setAttribute('class', 'items__des');
-    gradeItem.textContent = '평점 ';
-    gradeCon.textContent = info.grade;
-    gradeItem.appendChild(gradeCon);
-    // RATE AREA
-    rateItem.setAttribute('class', 'grade__items');
-    rateCon.setAttribute('class', 'items__des');
-    rateItem.textContent = '예매율 ';
-    rateCon.textContent = `${info.rate}%`;
-    rateItem.appendChild(rateCon);
-
-    grade.appendChild(gradeItem);
-    grade.appendChild(rateItem);
-    // OPENING DATE AREA
-    open.setAttribute('class', 'opening-date');
-    open.textContent = info.openingDate;
-
     movieDes.appendChild(movieTit);
-    movieDes.appendChild(grade);
-    movieDes.appendChild(open);
+    // GRADE AREA
+    if (info.grade || info.rate) {
+        const grade = document.createElement('dd');
+        grade.setAttribute('class', 'grade');
+
+        if (info.grade) {
+            const gradeItem = document.createElement('span');
+            const gradeCon = document.createElement('strong');
+    
+            gradeItem.setAttribute('class', 'grade__items');
+            gradeCon.setAttribute('class', 'items__des');
+            gradeItem.textContent = '평점 ';
+            gradeCon.textContent = info.grade;
+            gradeItem.appendChild(gradeCon);
+    
+            grade.appendChild(gradeItem);
+        }
+        // RATE AREA
+        if (info.rate) {
+            const rateItem = document.createElement('span');
+            const rateCon = document.createElement('strong');
+    
+            rateItem.setAttribute('class', 'grade__items');
+            rateCon.setAttribute('class', 'items__des');
+            rateItem.textContent = '예매율 ';
+            rateCon.textContent = `${info.rate}%`;
+            rateItem.appendChild(rateCon);
+    
+            grade.appendChild(rateItem);
+        }
+
+        movieDes.appendChild(grade);
+    }
+
+    // OPENING DATE AREA
+    if (info.openingDate) {
+        const open = document.createElement('dd');
+
+        open.setAttribute('class', 'opening-date');
+        open.textContent = info.openingDate;
+
+        movieDes.appendChild(open);
+    }
 
     // MOVIE ITEMS APPEND CONTENT
     movieItems.appendChild(poster);
     movieItems.appendChild(movieDes);
     movieChart.showMovieTableOfContents.movieDisplayArea.appendChild(movieItems);
+
+    movieChart.movieIndex++;
 }
 
 movieChart.showMovieTableOfContents.getMovieList = url => {
+    movieChart.showMovieTableOfContents.movieDisplayArea.innerText = '';
+
     const xhr = new XMLHttpRequest();
 
     xhr.open('GET', url, true);
@@ -81,18 +104,35 @@ movieChart.showMovieTableOfContents.getMovieList = url => {
         if (xhr.readyState !== XMLHttpRequest.DONE) return;
 
         if (xhr.status === 200) {
-            console.log(JSON.parse(xhr.response).list.list);
-            const movieList = JSON.parse(xhr.response).list.list;
+            movieChart.movieData = JSON.parse(xhr.response).list.list;
 
-            movieList.forEach(list => {
-                movieChart.showMovieTableOfContents.makeList(list);
-            });
+            movieChart.movieIndex = 0;
+
+            for (let i = 0; i < 5; i++) {
+                movieChart.showMovieTableOfContents.makeList(movieChart.movieData[i]);
+            }
+
+            movieChart.infiniteScroll();
         } else {
             console.error('Error', xhr.status, xhr.statusText);
         }
     }
 }
 
+movieChart.showMovieTableOfContents.hashBang = () => {
+    if (location.hash) {
+        const url = location.hash.substr(2);
+
+        if (url === 'to-be-screen') {
+            movieChart.moveTab.switchSelectedElement(movieChart.moveTab.tabMenu[1]);
+        }
+
+        movieChart.showMovieTableOfContents.getMovieList(url);
+    } else {
+        movieChart.showMovieTableOfContents.getMovieList('/being-screen');
+    }
+}
+
 window.addEventListener('load', () => {
-    movieChart.showMovieTableOfContents.getMovieList('/current');
+    movieChart.showMovieTableOfContents.hashBang();
 });

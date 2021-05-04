@@ -1,10 +1,11 @@
 movieChart.createObj('search');
 
 movieChart.search.searchMovie = query => {
-    const xhr = new XMLHttpRequest();
-    const search = JSON.stringify(query);
+    if (!query) return;
 
-    xhr.open('GET', '/search?query=' + search, true);
+    const xhr = new XMLHttpRequest();
+
+    xhr.open('GET', '/search?query=' + query, true);
 
     xhr.setRequestHeader('content-type', 'application/json');
 
@@ -14,7 +15,19 @@ movieChart.search.searchMovie = query => {
         if (xhr.readyState !== XMLHttpRequest.DONE) return;
 
         if (xhr.status === 200) {
-            console.log(JSON.parse(xhr.response));
+            movieChart.showMovieTableOfContents.movieDisplayArea.innerText = '';
+            movieChart.movieIndex = 0;
+
+            movieChart.movieData = JSON.parse(xhr.response).list.list;
+
+            if (movieChart.movieData.length === 0) {
+                movieChart.showMovieTableOfContents.movieDisplayArea.innerText = `${query}에 대한 검색 결과가 없습니다.`;
+                return;
+            }
+
+            while(movieChart.movieData[movieChart.movieIndex]) {
+                movieChart.showMovieTableOfContents.makeList(movieChart.movieData[movieChart.movieIndex]);
+            }
         } else {
             console.error('Error', xhr.status, xhr.statusText);
         }
@@ -23,7 +36,6 @@ movieChart.search.searchMovie = query => {
 
 movieChart.search.searchForm = document.getElementById('form--search');
 movieChart.search.searchInput = document.getElementById('input--search');
-
 
 movieChart.search.searchForm.addEventListener('submit', function() {
     const value = movieChart.search.searchInput.value;

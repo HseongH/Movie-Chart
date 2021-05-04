@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Chart</title>
 
-    <!-- FAVICON -->
-    <link rel="icon" type="image/x-icon" href="../favicon.ico"/>
-
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -68,9 +65,13 @@
         <div class="container">
 
             <ul class="tab-menu">
-                <li class="menu-items selected">현재 상영작</li>
+                <li class="menu-items selected">
+                    <a href="#!being-screen">현재 상영작</a>
+                </li>
 
-                <li class="menu-items">개봉 예정작</li>
+                <li class="menu-items">
+                    <a href="#!to-be-screen">개봉 예정작</a>
+                </li>
             </ul>
 
             <ol class="movie-display-area"></ol>
@@ -99,9 +100,9 @@
 </div>
 
 <script src="../static/js/index.js"></script>
-<script src="../static/js/move-menu-tab.js"></script>
-<script src="../static/js/infinite-scroll.js"></script>
 <script src="../static/js/show-movie-table-of-contents.js"></script>
 <script src="../static/js/search.js"></script>
+<script src="../static/js/move-menu-tab.js"></script>
+<script src="../static/js/infinite-scroll.js"></script>
 </body>
 </html>

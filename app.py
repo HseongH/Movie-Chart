@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template, jsonify, request, send_from_directory
 import requests
 import json
@@ -13,6 +14,10 @@ works_to_be_screend()
 def initpage():
     return render_template('index.html')
 
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(os.path.join(app.root_path, 'static'),'favicon.ico', mimetype='image/vnd.microsoft.icon')
+
 @app.route('/search', methods=['GET'])
 def view_result():
     query_receive = request.args.get('query')
@@ -21,16 +26,16 @@ def view_result():
     
     return jsonify({ 'list': movie_list })
 
-@app.route('/current', methods=['GET'])
+@app.route('/being-screen', methods=['GET'])
 def current():
-    with open('currently-being-screen.json', 'r', encoding='utf-8') as f:
+    with open('movie-data/currently-being-screen.json', 'r', encoding='utf-8') as f:
         cur_screen = json.load(f)
         
     return jsonify({ 'list': cur_screen })
 
-@app.route('/works', methods=['GET'])
+@app.route('/to-be-screen', methods=['GET'])
 def works():
-    with open('works-to-be-screend.json', 'r', encoding='utf-8') as f:
+    with open('movie-data/works-to-be-screend.json', 'r', encoding='utf-8') as f:
         works_screen = json.load(f)
         
     return jsonify({ 'list': works_screen })

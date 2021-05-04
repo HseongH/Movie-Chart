@@ -36,3 +36,13 @@ movieChart.findSiblings = elem => {
 
     return siblings;
 }
+
+// MOVIE DATA
+movieChart.movieData;
+movieChart.movieIndex = 0;
+movieChart.viewingAge = {
+    '전체 관람가': '../static/img/all.png',
+    '12세 관람가': '../static/img/12.png',
+    '15세 관람가': '../static/img/15.png',
+    '청소년 관람불가': '../static/img/19.png',
+}
