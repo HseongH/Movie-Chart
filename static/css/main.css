@@ -54,16 +54,25 @@ img {
     outline: none;
 }
 
+/* AUTOFILL */
+.input--text:-webkit-autofill,
+.input--text:-webkit-autofill:hover,
+.input--text:-webkit-autofill:focus,
+.input--text:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #F9FBFB !important;
+}
+
 /* VENDOR PREFIX */
-.input-box::-webkit-input-placeholder {
+.input--text::-webkit-input-placeholder {
     color: #ddd;
 }
 
-.input-box::-ms-input-placeholder {
+.input--text::-ms-input-placeholder {
     color: #ddd;
 }
 
-.input-box::-moz-input-placeholder {
+.input--text::-moz-input-placeholder {
     color: #ddd;
 }
 
