@@ -10,7 +10,7 @@ currently_being_screened()
 works_to_be_screend()
 
 @app.route('/')
-def homework():
+def initpage():
     return render_template('index.html')
 
 @app.route('/search', methods=['GET'])

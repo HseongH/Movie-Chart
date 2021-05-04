@@ -3,7 +3,6 @@ movieChart.createObj('search');
 movieChart.search.searchMovie = query => {
     const xhr = new XMLHttpRequest();
     const search = JSON.stringify(query);
-    console.log(typeof(search));
 
     xhr.open('GET', '/search?query=' + search, true);
 

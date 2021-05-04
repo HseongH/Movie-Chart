@@ -39,6 +39,19 @@
 			"openingDate": "2021.05.05"
 		},
 		{
+			"title": "해리 포터와 아즈카반의 죄수",
+			"image": "https://movie-phinf.pstatic.net/20210428_206/1619587639370bFNkC_JPEG/movie_image.jpg",
+			"viewingAge": "전체 관람가",
+			"grade": "8.73",
+			"openingDate": "2021.05.05"
+		},
+		{
+			"title": "학교 가는 길",
+			"image": "https://movie-phinf.pstatic.net/20210416_118/1618536200110fLn7g_JPEG/movie_image.jpg",
+			"viewingAge": "12세 관람가",
+			"openingDate": "2021.05.05"
+		},
+		{
 			"title": "배드 헤어",
 			"image": "https://movie-phinf.pstatic.net/20210427_264/1619505595636CnRHb_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
@@ -49,20 +62,6 @@
 			"image": "https://movie-phinf.pstatic.net/20210412_144/1618203769055qkK5M_JPEG/movie_image.jpg",
 			"viewingAge": "전체 관람가",
 			"openingDate": "2021.05.05"
-		},
-		{
-			"title": "해리 포터와 아즈카반의 죄수",
-			"image": "https://movie-phinf.pstatic.net/20210428_206/1619587639370bFNkC_JPEG/movie_image.jpg",
-			"viewingAge": "전체 관람가",
-			"grade": "8.73",
-			"openingDate": "2021.05.05"
-		},
-		{
-			"title": "윈드 리버",
-			"image": "https://movie-phinf.pstatic.net/20170816_125/15028505755786Yz7r_JPEG/movie_image.jpg",
-			"viewingAge": "15세 관람가",
-			"grade": "8.52",
-			"openingDate": "2021.05.06"
 		},
 		{
 			"title": "컴 애즈 유 아",
@@ -77,8 +76,20 @@
 			"openingDate": "2021.05.07"
 		},
 		{
+			"title": "스파이럴",
+			"image": "https://movie-phinf.pstatic.net/20210427_222/1619511153612Vrb5k_JPEG/movie_image.jpg",
+			"viewingAge": "청소년 관람불가",
+			"openingDate": "2021.05.12"
+		},
+		{
 			"title": "비커밍 아스트리드",
 			"image": "https://movie-phinf.pstatic.net/20210412_119/16182079172610jq6V_JPEG/movie_image.jpg",
+			"viewingAge": "15세 관람가",
+			"openingDate": "2021.05.12"
+		},
+		{
+			"title": "슈퍼노바",
+			"image": "https://movie-phinf.pstatic.net/20210416_88/1618552824988DvxeU_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
 			"openingDate": "2021.05.12"
 		},
@@ -90,14 +101,20 @@
 			"openingDate": "2021.05.12"
 		},
 		{
-			"title": "아들의 이름으로",
-			"image": "https://movie-phinf.pstatic.net/20210423_52/1619163659566SWe1o_JPEG/movie_image.jpg",
+			"title": "내겐 너무 소중한 너",
+			"image": "https://movie-phinf.pstatic.net/20210427_55/1619491808366rfLdy_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
 			"openingDate": "2021.05.12"
 		},
 		{
-			"title": "내겐 너무 소중한 너",
-			"image": "https://movie-phinf.pstatic.net/20210427_55/1619491808366rfLdy_JPEG/movie_image.jpg",
+			"title": "미스",
+			"image": "https://movie-phinf.pstatic.net/20210427_144/1619487062509UBYeW_JPEG/movie_image.jpg",
+			"viewingAge": "15세 관람가",
+			"openingDate": "2021.05.12"
+		},
+		{
+			"title": "아들의 이름으로",
+			"image": "https://movie-phinf.pstatic.net/20210423_52/1619163659566SWe1o_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
 			"openingDate": "2021.05.12"
 		},
@@ -108,21 +125,10 @@
 			"openingDate": "2021.05.12"
 		},
 		{
-			"title": "미스",
-			"image": "https://movie-phinf.pstatic.net/20210427_144/1619487062509UBYeW_JPEG/movie_image.jpg",
-			"viewingAge": "15세 관람가",
-			"openingDate": "2021.05.12"
-		},
-		{
-			"title": "슈퍼노바",
-			"image": "https://movie-phinf.pstatic.net/20210416_88/1618552824988DvxeU_JPEG/movie_image.jpg",
-			"viewingAge": "15세 관람가",
-			"openingDate": "2021.05.12"
-		},
-		{
-			"title": "스파이럴",
-			"image": "https://movie-phinf.pstatic.net/20210427_222/1619511153612Vrb5k_JPEG/movie_image.jpg",
+			"title": "뻐꾸기도 밤에 우는가",
+			"image": "https://movie-phinf.pstatic.net/20210504_54/1620107556982wmUkW_JPEG/movie_image.jpg",
 			"viewingAge": "청소년 관람불가",
+			"grade": "8.54",
 			"openingDate": "2021.05.12"
 		},
 		{
@@ -132,6 +138,12 @@
 			"openingDate": "2021.05.12"
 		},
 		{
+			"title": "홈런: 야구소년",
+			"image": "https://movie-phinf.pstatic.net/20210423_72/1619154190515fGEvX_JPEG/movie_image.jpg",
+			"viewingAge": "전체 관람가",
+			"openingDate": "2021.05.13"
+		},
+		{
 			"title": "범털2 : 쩐의 전쟁",
 			"image": "https://movie-phinf.pstatic.net/20210421_44/1618995316247Pz0kV_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
@@ -139,12 +151,7 @@
 		},
 		{
 			"title": "스쿨 오브 락(樂)",
-			"image": "https://movie-phinf.pstatic.net/20210422_42/1619057584943S4cQX_JPEG/movie_image.jpg",
-			"openingDate": "2021.05.13"
-		},
-		{
-			"title": "홈런: 야구소년",
-			"image": "https://movie-phinf.pstatic.net/20210423_72/1619154190515fGEvX_JPEG/movie_image.jpg",
+			"image": "https://movie-phinf.pstatic.net/20210503_128/1620005908087htdxw_JPEG/movie_image.jpg",
 			"viewingAge": "전체 관람가",
 			"openingDate": "2021.05.13"
 		},
@@ -152,6 +159,12 @@
 			"title": "분노의 질주: 더 얼티메이트",
 			"image": "https://movie-phinf.pstatic.net/20210421_37/1618971733493B4ykS_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
+			"openingDate": "2021.05.19"
+		},
+		{
+			"title": "쿠오바디스, 아이다",
+			"image": "https://movie-phinf.pstatic.net/20210415_197/1618466995195YdUjf_JPEG/movie_image.jpg",
+			"viewingAge": "15세 관람가",
 			"openingDate": "2021.05.19"
 		},
 		{
@@ -165,6 +178,18 @@
 			"image": "https://movie-phinf.pstatic.net/20210421_169/1618982589882LFBPN_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
 			"grade": "8.68",
+			"openingDate": "2021.05.19"
+		},
+		{
+			"title": "소리에 놀라지 않는 사자처럼",
+			"image": "https://movie-phinf.pstatic.net/20210503_10/1620031810355HVH1m_JPEG/movie_image.jpg",
+			"viewingAge": "전체 관람가",
+			"openingDate": "2021.05.19"
+		},
+		{
+			"title": "쿠사마 야요이: 무한의 세계",
+			"image": "https://movie-phinf.pstatic.net/20210430_15/1619773480522bGLl1_JPEG/movie_image.jpg",
+			"viewingAge": "전체 관람가",
 			"openingDate": "2021.05.19"
 		},
 		{
@@ -187,15 +212,16 @@
 		},
 		{
 			"title": "보이저스",
-			"image": "https://movie-phinf.pstatic.net/20210416_24/16185372796649HQRY_JPEG/movie_image.jpg",
+			"image": "https://movie-phinf.pstatic.net/20210503_149/1620022534569YU9x7_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
 			"openingDate": "2021.05.26"
 		},
 		{
-			"title": "쿠오바디스, 아이다",
-			"image": "https://movie-phinf.pstatic.net/20210415_197/1618466995195YdUjf_JPEG/movie_image.jpg",
-			"viewingAge": "15세 관람가",
-			"openingDate": "2021.05"
+			"title": "앵무새 몸으로 울었다",
+			"image": "https://movie-phinf.pstatic.net/20210504_6/1620108255266wnmQJ_JPEG/movie_image.jpg",
+			"viewingAge": "청소년 관람불가",
+			"grade": "7.62",
+			"openingDate": "2021.05.26"
 		},
 		{
 			"title": "#위왓치유",
@@ -233,8 +259,9 @@
 			"openingDate": "2021.05"
 		},
 		{
-			"title": "실크 로드",
-			"image": "https://movie-phinf.pstatic.net/20210428_172/1619577462169imO9D_JPEG/movie_image.jpg",
+			"title": "써니",
+			"image": "https://ssl.pstatic.net/static/movie/2012/09/dft_img99x141.png",
+			"viewingAge": "15세 관람가",
 			"openingDate": "2021.05"
 		},
 		{
@@ -245,7 +272,7 @@
 		},
 		{
 			"title": "크루엘라",
-			"image": "https://movie-phinf.pstatic.net/20210416_101/1618543504910jI0oP_JPEG/movie_image.jpg",
+			"image": "https://movie-phinf.pstatic.net/20210503_249/1620020909754pwkwO_JPEG/movie_image.jpg",
 			"openingDate": "2021.05"
 		},
 		{
@@ -257,6 +284,23 @@
 			"title": "포겟 미 낫",
 			"image": "https://movie-phinf.pstatic.net/20210426_139/1619402732470dRHLq_JPEG/movie_image.jpg",
 			"openingDate": "2021.05"
+		},
+		{
+			"title": "까치발",
+			"image": "https://movie-phinf.pstatic.net/20210503_194/1620030330831O5qBg_JPEG/movie_image.jpg",
+			"viewingAge": "12세 관람가",
+			"openingDate": "2021.06.03"
+		},
+		{
+			"title": "킬러의 보디가드 2",
+			"image": "https://movie-phinf.pstatic.net/20210503_134/16200055957631cGz7_JPEG/movie_image.jpg",
+			"openingDate": "2021.06.23"
+		},
+		{
+			"title": "크레센도",
+			"image": "https://movie-phinf.pstatic.net/20190619_150/1560923460815CYnBI_JPEG/movie_image.jpg",
+			"viewingAge": "12세 관람가",
+			"openingDate": "2021.06.24"
 		},
 		{
 			"title": "기적",
@@ -275,8 +319,18 @@
 			"openingDate": "2021.06"
 		},
 		{
+			"title": "실크 로드",
+			"image": "https://movie-phinf.pstatic.net/20210504_222/1620114785413ro3hD_JPEG/movie_image.jpg",
+			"openingDate": "2021.06"
+		},
+		{
 			"title": "아야와 마녀",
 			"image": "https://movie-phinf.pstatic.net/20210419_273/1618795867889OdYra_JPEG/movie_image.jpg",
+			"openingDate": "2021.06"
+		},
+		{
+			"title": "웬디",
+			"image": "https://movie-phinf.pstatic.net/20200211_290/1581388540055g2tWQ_JPEG/movie_image.jpg",
 			"openingDate": "2021.06"
 		},
 		{
@@ -291,12 +345,12 @@
 		},
 		{
 			"title": "컨저링 3: 악마가 시켰다",
-			"image": "https://movie-phinf.pstatic.net/20191218_214/1576648390726W3C3Y_JPEG/movie_image.jpg",
+			"image": "https://movie-phinf.pstatic.net/20210503_78/16200334429779wQSi_JPEG/movie_image.jpg",
 			"openingDate": "2021.06"
 		},
 		{
 			"title": "프로페서 앤 매드맨",
-			"image": "https://movie-phinf.pstatic.net/20190417_52/1555487131406tI45R_JPEG/movie_image.jpg",
+			"image": "https://movie-phinf.pstatic.net/20210504_88/1620109810926ebzVz_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
 			"openingDate": "2021.06"
 		},
@@ -340,7 +394,7 @@
 			"openingDate": "2021.12"
 		},
 		{
-			"title": "가족은 괴로워 3",
+			"title": "가족은 괴로워3: 아내여 장미처럼",
 			"image": "https://movie-phinf.pstatic.net/20210429_137/1619657745788EoWmO_JPEG/movie_image.jpg",
 			"viewingAge": "전체 관람가",
 			"openingDate": "2021"
