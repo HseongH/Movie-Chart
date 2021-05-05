@@ -1,7 +1,11 @@
+// CREATE NAMESPACE
 movieChart.createObj('showMovieTableOfContents');
 
+// VARIABLE
 movieChart.showMovieTableOfContents.movieDisplayArea = document.querySelector('.movie-display-area');
 
+// FUNCTION
+// APPEND MOVIE LIST
 movieChart.showMovieTableOfContents.makeList = info => {
     const movieItems = document.createElement('li');
     const poster = document.createElement('div');
@@ -93,6 +97,7 @@ movieChart.showMovieTableOfContents.makeList = info => {
     movieChart.movieIndex++;
 }
 
+// AJAX
 movieChart.showMovieTableOfContents.getMovieList = url => {
     const xhr = new XMLHttpRequest();
 
@@ -121,6 +126,7 @@ movieChart.showMovieTableOfContents.getMovieList = url => {
     }
 }
 
+// INITIAL SCREEN
 movieChart.showMovieTableOfContents.hashBang = () => {
     if (location.hash) {
         const url = location.hash.substr(2);
@@ -135,6 +141,7 @@ movieChart.showMovieTableOfContents.hashBang = () => {
     }
 }
 
+// EVENT HANDLER
 window.addEventListener('load', () => {
     movieChart.showMovieTableOfContents.hashBang();
 });

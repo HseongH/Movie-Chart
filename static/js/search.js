@@ -1,5 +1,13 @@
+// CREATE NAMESPACE
 movieChart.createObj('search');
 
+// VARIABLE
+movieChart.search.searchForm = document.getElementById('form--search');
+movieChart.search.searchInput = document.getElementById('input--search');
+movieChart.search.loading = document.querySelector('.loading');
+
+// FUNCTION
+// AJAX
 movieChart.search.searchMovie = query => {
     const xhr = new XMLHttpRequest();
 
@@ -31,6 +39,7 @@ movieChart.search.searchMovie = query => {
     }
 }
 
+// INITIAL SETUP BEFOLE SUBMITTING TO THE SERVER
 movieChart.search.formInit = query => {
     event.preventDefault();
 
@@ -48,10 +57,7 @@ movieChart.search.formInit = query => {
     movieChart.search.searchMovie(query);
 }
 
-movieChart.search.searchForm = document.getElementById('form--search');
-movieChart.search.searchInput = document.getElementById('input--search');
-movieChart.search.loading = document.querySelector('.loading');
-
+// EVENT HANDLER
 movieChart.search.searchForm.addEventListener('submit', function() {
     const value = movieChart.search.searchInput.value;
 

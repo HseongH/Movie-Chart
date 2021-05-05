@@ -1,5 +1,10 @@
+// CREATE NAMESPACE
 movieChart.createObj('moveTab');
 
+// ELEMENTS SELECT
+movieChart.moveTab.tabMenu = document.querySelectorAll('.menu-items');
+
+// FUNCTION
 movieChart.moveTab.switchSelectedElement = elem => {
     movieChart.search.searchInput.value = '';
 
@@ -9,9 +14,6 @@ movieChart.moveTab.switchSelectedElement = elem => {
 
     elem.classList.add('selected');
 }
-
-// ELEMENTS SELECT
-movieChart.moveTab.tabMenu = document.querySelectorAll('.menu-items');
 
 // TAB MOVE WHEN MENU IS CLICKED
 Array.prototype.forEach.call(movieChart.moveTab.tabMenu, tab => {

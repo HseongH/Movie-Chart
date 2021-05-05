@@ -10,14 +10,17 @@ app = Flask(__name__)
 currently_being_screened()
 works_to_be_screend()
 
+# ROOT
 @app.route('/')
 def initpage():
     return render_template('index.html')
 
+# FAVICON
 @app.route('/favicon.ico')
 def favicon():
     return send_from_directory(os.path.join(app.root_path, 'static'),'favicon.ico', mimetype='image/vnd.microsoft.icon')
 
+# SEARCH
 @app.route('/search', methods=['GET'])
 def view_result():
     query_receive = request.args.get('query')
@@ -27,6 +30,7 @@ def view_result():
     
     return jsonify({ 'list': movie_list })
 
+# CURRENTLY BEING SCREEN
 @app.route('/being-screen', methods=['GET'])
 def current():
     with open('movie-data/currently-being-screen.json', 'r', encoding='utf-8') as f:
@@ -34,6 +38,7 @@ def current():
         
     return jsonify({ 'list': cur_screen })
 
+# WORKS TO BE SCREEN
 @app.route('/to-be-screen', methods=['GET'])
 def works():
     with open('movie-data/works-to-be-screen.json', 'r', encoding='utf-8') as f:

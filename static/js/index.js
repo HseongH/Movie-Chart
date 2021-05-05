@@ -1,3 +1,4 @@
+// NAMESPACE INITIAL VALUE SETTING
 const movieChart = {
     createObj: ns => {
         let parent = movieChart;
