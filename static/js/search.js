@@ -12,7 +12,7 @@ movieChart.search.searchMovie = query => {
     selected && selected.classList.remove('selected');
     movieChart.showMovieTableOfContents.movieDisplayArea.innerText = '';
 
-    xhr.open('GET', '/search?query=' + query, true);
+    xhr.open('GET',  `/search?query=${query}&display=20`, true);
 
     xhr.setRequestHeader('content-type', 'application/json');
 

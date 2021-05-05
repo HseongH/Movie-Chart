@@ -21,8 +21,9 @@ def favicon():
 @app.route('/search', methods=['GET'])
 def view_result():
     query_receive = request.args.get('query')
+    dis_receive = request.args.get('display')
 
-    movie_list = get_search_result(query_receive)
+    movie_list = get_search_result(query_receive, dis_receive)
     
     return jsonify({ 'list': movie_list })
 
@@ -35,7 +36,7 @@ def current():
 
 @app.route('/to-be-screen', methods=['GET'])
 def works():
-    with open('movie-data/works-to-be-screend.json', 'r', encoding='utf-8') as f:
+    with open('movie-data/works-to-be-screen.json', 'r', encoding='utf-8') as f:
         works_screen = json.load(f)
         
     return jsonify({ 'list': works_screen })

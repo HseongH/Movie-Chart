@@ -41,6 +41,9 @@ header.section .search-area .search-close {
 /* SHOW MOVIE */
 .section__show-movie .tab-menu .menu-items {
     font-size: 14px;
+}
+
+.section__show-movie .tab-menu .menu-items a {
     padding: 0 10px;
 }
 

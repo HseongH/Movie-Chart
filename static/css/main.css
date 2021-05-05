@@ -86,6 +86,7 @@ svg {
     box-shadow: -2px -2px 8px rgb(255, 255, 255, .3),
                 2px 2px 8px rgb(0, 0, 0, .3);
     background: #000;
+    border-radius: 30px;
 }
 
 /* LOGO */
@@ -127,7 +128,6 @@ header.section .mobile-search {
     align-items: center;
     padding: 10px 15px;
     box-sizing: border-box;
-    border-radius: 30px;
 }
 
 #input--search {
