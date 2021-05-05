@@ -15,7 +15,6 @@ header.section .search-area {
     height: 100%;
     z-index: 9;
     background: rgba(15, 16, 20, .7);
-    display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 0 5%;

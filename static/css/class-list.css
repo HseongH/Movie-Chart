@@ -4,7 +4,7 @@
 }
 
 .show {
-    display: block !important;
+    display: flex !important;
 }
 
 /* DISABLED */

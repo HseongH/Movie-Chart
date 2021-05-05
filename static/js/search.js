@@ -45,6 +45,7 @@ movieChart.search.searchForm.addEventListener('submit', function() {
     const selected = document.querySelector('.selected');
     movieChart.showMovieTableOfContents.movieDisplayArea.innerText = '';
     movieChart.search.loading.classList.remove('hide');
+    movieChart.display.hide(movieChart.display.searchArea);
 
     selected && selected.classList.remove('selected');
     movieChart.search.searchMovie(value);
