@@ -15,6 +15,7 @@ movieChart.search.searchMovie = query => {
         if (xhr.readyState !== XMLHttpRequest.DONE) return;
 
         if (xhr.status === 200) {
+            movieChart.search.loading.classList.add('hide');
             movieChart.showMovieTableOfContents.movieDisplayArea.innerText = '';
             movieChart.movieIndex = 0;
 
@@ -36,8 +37,15 @@ movieChart.search.searchMovie = query => {
 
 movieChart.search.searchForm = document.getElementById('form--search');
 movieChart.search.searchInput = document.getElementById('input--search');
+movieChart.search.loading = document.querySelector('.loading');
 
 movieChart.search.searchForm.addEventListener('submit', function() {
+    event.preventDefault();
     const value = movieChart.search.searchInput.value;
+    const selected = document.querySelector('.selected');
+    movieChart.showMovieTableOfContents.movieDisplayArea.innerText = '';
+    movieChart.search.loading.classList.remove('hide');
+
+    selected && selected.classList.remove('selected');
     movieChart.search.searchMovie(value);
 });

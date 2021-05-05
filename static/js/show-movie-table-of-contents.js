@@ -8,7 +8,6 @@ movieChart.showMovieTableOfContents.makeList = info => {
     const poster = document.createElement('div');
     const posLink = document.createElement('a');
     const posImg = document.createElement('img');
-    const viewingAge = document.createElement('span');
     const movieDes = document.createElement('dl');
     const movieTit = document.createElement('dt');
     const titLink = document.createElement('a');
@@ -21,13 +20,18 @@ movieChart.showMovieTableOfContents.makeList = info => {
     posLink.href = '#';
     posImg.src = info.image;
     posImg.alt = info.title;
-    viewingAge.setAttribute('class', 'viewing-age');
-    viewingAge.textContent = info.viewingAge;
-    viewingAge.style.backgroundImage = `url(${backgroundImage})`;
-    
     posLink.appendChild(posImg);
     poster.appendChild(posLink);
-    poster.appendChild(viewingAge);
+
+    if (info.viewingAge) {
+        const viewingAge = document.createElement('span');
+
+        viewingAge.setAttribute('class', 'viewing-age');
+        viewingAge.textContent = info.viewingAge;
+        viewingAge.style.backgroundImage = `url(${backgroundImage})`;
+    
+        poster.appendChild(viewingAge);
+    }
 
     // DESCRIPTION AREA
     movieDes.setAttribute('class', 'movie__des');
@@ -90,8 +94,6 @@ movieChart.showMovieTableOfContents.makeList = info => {
 }
 
 movieChart.showMovieTableOfContents.getMovieList = url => {
-    movieChart.showMovieTableOfContents.movieDisplayArea.innerText = '';
-
     const xhr = new XMLHttpRequest();
 
     xhr.open('GET', url, true);

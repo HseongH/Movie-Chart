@@ -21,6 +21,7 @@ Array.prototype.forEach.call(movieChart.moveTab.tabMenu, tab => {
     const url = button.hash.substr(2);
 
     button.addEventListener('click', function() {
+        movieChart.showMovieTableOfContents.movieDisplayArea.innerText = '';
         movieChart.moveTab.switchSelectedElement(tab);
         movieChart.showMovieTableOfContents.getMovieList(url);
     });
