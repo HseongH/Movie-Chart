@@ -17,7 +17,8 @@ movieChart.showMovieTableOfContents.makeList = info => {
     movieItems.setAttribute('class', 'movie-items');
     // POSTER AREA
     poster.setAttribute('class', 'movie-pos');
-    posLink.href = '#';
+    posLink.setAttribute('target', '_blank');
+    posLink.href = info.link;
     posImg.src = info.image;
     posImg.alt = info.title;
     posLink.appendChild(posImg);
@@ -37,7 +38,8 @@ movieChart.showMovieTableOfContents.makeList = info => {
     movieDes.setAttribute('class', 'movie__des');
     // DESCRIPTION TITLE
     movieTit.setAttribute('class', 'movie__title');
-    titLink.href = '#';
+    titLink.setAttribute('target', '_blank');
+    titLink.href = info.link;
     titLink.textContent = info.title;
     movieTit.appendChild(titLink);
     movieDes.appendChild(movieTit);
