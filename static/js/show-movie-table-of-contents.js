@@ -1,7 +1,6 @@
 movieChart.createObj('showMovieTableOfContents');
 
 movieChart.showMovieTableOfContents.movieDisplayArea = document.querySelector('.movie-display-area');
-movieChart.showMovieTableOfContents.movieItems;
 
 movieChart.showMovieTableOfContents.makeList = info => {
     const movieItems = document.createElement('li');
@@ -11,8 +10,6 @@ movieChart.showMovieTableOfContents.makeList = info => {
     const movieDes = document.createElement('dl');
     const movieTit = document.createElement('dt');
     const titLink = document.createElement('a');
-
-    const backgroundImage = movieChart.viewingAge[info.viewingAge];
 
     movieItems.setAttribute('class', 'movie-items');
     // POSTER AREA
@@ -26,6 +23,7 @@ movieChart.showMovieTableOfContents.makeList = info => {
 
     if (info.viewingAge) {
         const viewingAge = document.createElement('span');
+        const backgroundImage = movieChart.viewingAge[info.viewingAge];
 
         viewingAge.setAttribute('class', 'viewing-age');
         viewingAge.textContent = info.viewingAge;
@@ -40,7 +38,7 @@ movieChart.showMovieTableOfContents.makeList = info => {
     movieTit.setAttribute('class', 'movie__title');
     titLink.setAttribute('target', '_blank');
     titLink.href = info.link;
-    titLink.textContent = info.title;
+    titLink.innerHTML = info.title;
     movieTit.appendChild(titLink);
     movieDes.appendChild(movieTit);
     // GRADE AREA

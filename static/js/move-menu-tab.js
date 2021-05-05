@@ -3,11 +3,9 @@ movieChart.createObj('moveTab');
 movieChart.moveTab.switchSelectedElement = elem => {
     movieChart.search.searchInput.value = '';
 
-    const sib = movieChart.findSiblings(elem);
+    const [sib] = movieChart.findSiblings(elem);
 
-    Array.prototype.forEach.call(sib, sibElem => {
-        sibElem.classList.remove('selected');
-    });
+    sib.classList.remove('selected');
 
     elem.classList.add('selected');
 }

@@ -178,10 +178,6 @@ header.section .search-area .search-close {
     font-size: 25px;
 }
 
-.section__show-movie .movie-display-area .loading .loading__dot:last-child {
-    margin-right: 0;
-}
-
 .section__show-movie .movie-display-area .movie-items {
     width: 20%;
     padding: 10px;
@@ -256,6 +252,7 @@ header.section .search-area .search-close {
     left: 50%;
     width: 100px;
     height: 100px;
+    margin-top: -50px;
     margin-left: -50px;
     border-radius: 50%;
     display: flex;
