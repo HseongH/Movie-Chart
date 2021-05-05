@@ -22,6 +22,7 @@ Array.prototype.forEach.call(movieChart.moveTab.tabMenu, tab => {
 
     button.addEventListener('click', function() {
         movieChart.showMovieTableOfContents.movieDisplayArea.innerText = '';
+        movieChart.search.loading.classList.add('hide');
         movieChart.moveTab.switchSelectedElement(tab);
         movieChart.showMovieTableOfContents.getMovieList(url);
     });

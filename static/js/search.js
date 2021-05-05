@@ -3,7 +3,14 @@ movieChart.createObj('search');
 movieChart.search.searchMovie = query => {
     if (!query) return;
 
+    const selected = document.querySelector('.selected');
     const xhr = new XMLHttpRequest();
+    
+    movieChart.search.loading.classList.remove('hide');
+    movieChart.display.hide(movieChart.display.searchArea);
+
+    selected && selected.classList.remove('selected');
+    movieChart.showMovieTableOfContents.movieDisplayArea.innerText = '';
 
     xhr.open('GET', '/search?query=' + query, true);
 
@@ -42,11 +49,6 @@ movieChart.search.loading = document.querySelector('.loading');
 movieChart.search.searchForm.addEventListener('submit', function() {
     event.preventDefault();
     const value = movieChart.search.searchInput.value;
-    const selected = document.querySelector('.selected');
-    movieChart.showMovieTableOfContents.movieDisplayArea.innerText = '';
-    movieChart.search.loading.classList.remove('hide');
-    movieChart.display.hide(movieChart.display.searchArea);
 
-    selected && selected.classList.remove('selected');
     movieChart.search.searchMovie(value);
 });
