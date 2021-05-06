@@ -9,6 +9,8 @@ movieChart.moveTab.sortItems = document.querySelectorAll('.sort-items');
 // FUNCTION
 movieChart.moveTab.switchSelectedElement = elem => {
     movieChart.search.searchInput.value = '';
+    movieChart.showMovieTableOfContents.movieDisplayArea.innerText = '';
+    movieChart.movieIndex = 0;
 
     const sib = movieChart.findSiblings(elem);
 
@@ -25,7 +27,6 @@ Array.prototype.forEach.call(movieChart.moveTab.tabMenu, tab => {
     const url = button.hash.substr(2);
 
     button.addEventListener('click', function() {
-        movieChart.showMovieTableOfContents.movieDisplayArea.innerText = '';
         movieChart.search.loading.classList.add('hide');
         movieChart.moveTab.switchSelectedElement(tab);
         movieChart.moveTab.switchSelectedElement(movieChart.moveTab.sortItems[0]);

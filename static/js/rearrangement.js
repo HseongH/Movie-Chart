@@ -10,7 +10,7 @@ movieChart.sort.rearrangement = (data, standard) => {
     if (data.length <= 1) {
         return data;
     }
-    
+
     const pivot = data[0][standard] ? 
     parseInt(data[0][standard].split('.').join('')) : data[0][standard];
     const left = [];
@@ -31,8 +31,6 @@ movieChart.sort.rearrangement = (data, standard) => {
 }
 
 movieChart.sort.sortFuncCall = standard => {
-    movieChart.showMovieTableOfContents.movieDisplayArea.innerText = '';
-    movieChart.movieIndex = 0;
     movieChart.movieData = movieChart.sort.rearrangement(movieChart.movieData, standard);
 
     for (let i = 0; i < 5; i++) {
