@@ -45,6 +45,13 @@
 			"openingDate": "2021.05.12"
 		},
 		{
+			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=201898",
+			"title": "내겐 너무 소중한 너",
+			"image": "https://movie-phinf.pstatic.net/20210427_55/1619491808366rfLdy_JPEG/movie_image.jpg",
+			"viewingAge": "12세 관람가",
+			"openingDate": "2021.05.12"
+		},
+		{
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=197458",
 			"title": "미스",
 			"image": "https://movie-phinf.pstatic.net/20210427_144/1619487062509UBYeW_JPEG/movie_image.jpg",
@@ -63,13 +70,6 @@
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=195694",
 			"title": "아들의 이름으로",
 			"image": "https://movie-phinf.pstatic.net/20210423_52/1619163659566SWe1o_JPEG/movie_image.jpg",
-			"viewingAge": "12세 관람가",
-			"openingDate": "2021.05.12"
-		},
-		{
-			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=201898",
-			"title": "내겐 너무 소중한 너",
-			"image": "https://movie-phinf.pstatic.net/20210427_55/1619491808366rfLdy_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
 			"openingDate": "2021.05.12"
 		},
@@ -117,6 +117,12 @@
 			"openingDate": "2021.05.13"
 		},
 		{
+			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=204634",
+			"title": "탈옥풍운",
+			"image": "https://movie-phinf.pstatic.net/20210430_208/1619771974144urJwL_JPEG/movie_image.jpg",
+			"openingDate": "2021.05.13"
+		},
+		{
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=189150",
 			"title": "분노의 질주: 더 얼티메이트",
 			"image": "https://movie-phinf.pstatic.net/20210421_37/1618971733493B4ykS_JPEG/movie_image.jpg",
@@ -124,17 +130,17 @@
 			"openingDate": "2021.05.19"
 		},
 		{
-			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=196576",
-			"title": "쿠오바디스, 아이다",
-			"image": "https://movie-phinf.pstatic.net/20210415_197/1618466995195YdUjf_JPEG/movie_image.jpg",
-			"viewingAge": "15세 관람가",
-			"openingDate": "2021.05.19"
-		},
-		{
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=200052",
 			"title": "도라에몽: 스탠바이미 2",
 			"image": "https://movie-phinf.pstatic.net/20210419_157/1618799562907KW2ld_JPEG/movie_image.jpg",
 			"viewingAge": "전체 관람가",
+			"openingDate": "2021.05.19"
+		},
+		{
+			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=196576",
+			"title": "쿠오바디스, 아이다",
+			"image": "https://movie-phinf.pstatic.net/20210415_197/1618466995195YdUjf_JPEG/movie_image.jpg",
+			"viewingAge": "15세 관람가",
 			"openingDate": "2021.05.19"
 		},
 		{
@@ -188,6 +194,13 @@
 			"openingDate": "2021.05.26"
 		},
 		{
+			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=202086",
+			"title": "굴뚝마을의 푸펠",
+			"image": "https://movie-phinf.pstatic.net/20210412_211/16182115031791i8C2_JPEG/movie_image.jpg",
+			"viewingAge": "전체 관람가",
+			"openingDate": "2021.05.26"
+		},
+		{
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=22005",
 			"title": "앵무새 몸으로 울었다",
 			"image": "https://movie-phinf.pstatic.net/20210504_6/1620108255266wnmQJ_JPEG/movie_image.jpg",
@@ -200,20 +213,6 @@
 			"title": "봉신전설",
 			"image": "https://movie-phinf.pstatic.net/20210416_164/16185374894632iXh8_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
-			"openingDate": "2021.05"
-		},
-		{
-			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=192865",
-			"title": "#위왓치유",
-			"image": "https://movie-phinf.pstatic.net/20210407_78/1617772827292JBpSV_JPEG/movie_image.jpg",
-			"viewingAge": "청소년 관람불가",
-			"openingDate": "2021.05"
-		},
-		{
-			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=202086",
-			"title": "굴뚝마을의 푸펠",
-			"image": "https://movie-phinf.pstatic.net/20210412_211/16182115031791i8C2_JPEG/movie_image.jpg",
-			"viewingAge": "전체 관람가",
 			"openingDate": "2021.05"
 		},
 		{
@@ -257,12 +256,6 @@
 			"openingDate": "2021.05"
 		},
 		{
-			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=204634",
-			"title": "탈옥풍운",
-			"image": "https://movie-phinf.pstatic.net/20210430_208/1619771974144urJwL_JPEG/movie_image.jpg",
-			"openingDate": "2021.05"
-		},
-		{
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=187549",
 			"title": "파이프라인",
 			"image": "https://movie-phinf.pstatic.net/20210423_86/16191441041290rv1r_JPEG/movie_image.jpg",
@@ -294,6 +287,13 @@
 			"image": "https://movie-phinf.pstatic.net/20190619_150/1560923460815CYnBI_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
 			"openingDate": "2021.06.24"
+		},
+		{
+			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=192865",
+			"title": "#위왓치유",
+			"image": "https://movie-phinf.pstatic.net/20210407_78/1617772827292JBpSV_JPEG/movie_image.jpg",
+			"viewingAge": "청소년 관람불가",
+			"openingDate": "2021.06"
 		},
 		{
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=199860",

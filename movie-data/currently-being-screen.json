@@ -5,8 +5,8 @@
 			"title": "크루즈 패밀리: 뉴 에이지",
 			"image": "https://movie-phinf.pstatic.net/20210317_3/16159558907458ROLn_JPEG/movie_image.jpg",
 			"viewingAge": "전체 관람가",
-			"grade": "9.37",
-			"rate": "33.14",
+			"grade": "9.38",
+			"rate": "33.09",
 			"openingDate": "2021.05.05"
 		},
 		{
@@ -15,7 +15,7 @@
 			"image": "https://movie-phinf.pstatic.net/20210409_51/1617952225650apUwM_JPEG/movie_image.jpg",
 			"viewingAge": "전체 관람가",
 			"grade": "8.45",
-			"rate": "10.67",
+			"rate": "10.55",
 			"openingDate": "2021.05.05"
 		},
 		{
@@ -24,7 +24,7 @@
 			"image": "https://movie-phinf.pstatic.net/20210504_148/1620107063299XMt1s_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
 			"grade": "8.58",
-			"rate": "7.31",
+			"rate": "7.37",
 			"openingDate": "2021.04.28"
 		},
 		{
@@ -33,7 +33,7 @@
 			"image": "https://movie-phinf.pstatic.net/20210405_289/1617598543594hmu5r_JPEG/movie_image.jpg",
 			"viewingAge": "전체 관람가",
 			"grade": "6.94",
-			"rate": "6.2",
+			"rate": "6.15",
 			"openingDate": "2021.04.28"
 		},
 		{
@@ -51,7 +51,7 @@
 			"image": "https://movie-phinf.pstatic.net/20210325_146/1616648170782LcQeF_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
 			"grade": "8.93",
-			"rate": "4.71",
+			"rate": "4.74",
 			"openingDate": "2021.04.16"
 		},
 		{
@@ -60,7 +60,7 @@
 			"image": "https://movie-phinf.pstatic.net/20210126_174/1611638248803840HH_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
 			"grade": "9.30",
-			"rate": "4.59",
+			"rate": "4.57",
 			"openingDate": "2021.01.27"
 		},
 		{
@@ -77,17 +77,8 @@
 			"title": "아이들은 즐겁다",
 			"image": "https://movie-phinf.pstatic.net/20210414_16/1618390578607BCgD2_JPEG/movie_image.jpg",
 			"viewingAge": "전체 관람가",
-			"grade": "9.50",
-			"rate": "3.71",
-			"openingDate": "2021.05.05"
-		},
-		{
-			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=203643",
-			"title": "내가 죽기를 바라는 자들",
-			"image": "https://movie-phinf.pstatic.net/20210421_197/1618986670596Y6mDD_JPEG/movie_image.jpg",
-			"viewingAge": "15세 관람가",
-			"grade": "8.19",
-			"rate": "2.88",
+			"grade": "9.56",
+			"rate": "3.77",
 			"openingDate": "2021.05.05"
 		},
 		{
@@ -95,9 +86,18 @@
 			"title": "노매드랜드",
 			"image": "https://movie-phinf.pstatic.net/20210325_116/16166363029599OMXS_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
-			"grade": "8.46",
-			"rate": "2.85",
+			"grade": "8.44",
+			"rate": "2.93",
 			"openingDate": "2021.04.15"
+		},
+		{
+			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=203643",
+			"title": "내가 죽기를 바라는 자들",
+			"image": "https://movie-phinf.pstatic.net/20210421_197/1618986670596Y6mDD_JPEG/movie_image.jpg",
+			"viewingAge": "15세 관람가",
+			"grade": "8.18",
+			"rate": "2.86",
+			"openingDate": "2021.05.05"
 		},
 		{
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=201923",
@@ -105,7 +105,7 @@
 			"image": "https://movie-phinf.pstatic.net/20210402_32/1617325209162bccjm_JPEG/movie_image.jpg",
 			"viewingAge": "전체 관람가",
 			"grade": "8.96",
-			"rate": "2.13",
+			"rate": "2.1",
 			"openingDate": "2021.04.28"
 		},
 		{
@@ -114,17 +114,8 @@
 			"image": "https://movie-phinf.pstatic.net/20210406_131/1617688160755B157W_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
 			"grade": "7.66",
-			"rate": "1.53",
+			"rate": "1.55",
 			"openingDate": "2021.04.21"
-		},
-		{
-			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=198304",
-			"title": "좋은 빛, 좋은 공기",
-			"image": "https://movie-phinf.pstatic.net/20210412_56/1618208167180sCUVq_JPEG/movie_image.jpg",
-			"viewingAge": "12세 관람가",
-			"grade": "7.68",
-			"rate": "1.33",
-			"openingDate": "2021.04.28"
 		},
 		{
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=197071",
@@ -132,8 +123,17 @@
 			"image": "https://movie-phinf.pstatic.net/20210416_118/1618536200110fLn7g_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
 			"grade": "10.00",
-			"rate": "1.29",
+			"rate": "1.39",
 			"openingDate": "2021.05.05"
+		},
+		{
+			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=198304",
+			"title": "좋은 빛, 좋은 공기",
+			"image": "https://movie-phinf.pstatic.net/20210412_56/1618208167180sCUVq_JPEG/movie_image.jpg",
+			"viewingAge": "12세 관람가",
+			"grade": "7.68",
+			"rate": "1.31",
+			"openingDate": "2021.04.28"
 		},
 		{
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=189075",
@@ -141,7 +141,7 @@
 			"image": "https://movie-phinf.pstatic.net/20210331_104/1617166166627wzUHH_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
 			"grade": "9.31",
-			"rate": "0.94",
+			"rate": "0.95",
 			"openingDate": "2021.03.31"
 		},
 		{
@@ -150,17 +150,8 @@
 			"image": "https://movie-phinf.pstatic.net/20210429_261/1619671359642hcXfp_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
 			"grade": "8.80",
-			"rate": "0.89",
+			"rate": "0.92",
 			"openingDate": "2021.04.07"
-		},
-		{
-			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=193043",
-			"title": "정말 먼 곳",
-			"image": "https://movie-phinf.pstatic.net/20210318_149/1616058935356uF5rW_JPEG/movie_image.jpg",
-			"viewingAge": "12세 관람가",
-			"grade": "8.25",
-			"rate": "0.53",
-			"openingDate": "2021.03.18"
 		},
 		{
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=10020",
@@ -168,8 +159,17 @@
 			"image": "https://movie-phinf.pstatic.net/20210401_210/1617254637218tb3pX_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
 			"grade": "9.23",
-			"rate": "0.49",
+			"rate": "0.51",
 			"openingDate": "2021.04.28"
+		},
+		{
+			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=193043",
+			"title": "정말 먼 곳",
+			"image": "https://movie-phinf.pstatic.net/20210318_149/1616058935356uF5rW_JPEG/movie_image.jpg",
+			"viewingAge": "12세 관람가",
+			"grade": "8.25",
+			"rate": "0.48",
+			"openingDate": "2021.03.18"
 		},
 		{
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=88669",
@@ -186,7 +186,7 @@
 			"image": "https://movie-phinf.pstatic.net/20210316_102/1615869903057Yyhg8_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
 			"grade": "8.44",
-			"rate": "0.35",
+			"rate": "0.34",
 			"openingDate": "2021.04.08"
 		},
 		{
@@ -199,21 +199,12 @@
 			"openingDate": "2021.03.25"
 		},
 		{
-			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=184366",
-			"title": "아무도 없는 곳",
-			"image": "https://movie-phinf.pstatic.net/20210318_169/1616050035638vpyp7_JPEG/movie_image.jpg",
-			"viewingAge": "15세 관람가",
-			"grade": "6.91",
-			"rate": "0.32",
-			"openingDate": "2021.03.31"
-		},
-		{
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=195691",
 			"title": "어른들은 몰라요",
 			"image": "https://movie-phinf.pstatic.net/20210416_272/16185371259377meLU_JPEG/movie_image.jpg",
 			"viewingAge": "청소년 관람불가",
 			"grade": "5.72",
-			"rate": "0.31",
+			"rate": "0.32",
 			"openingDate": "2021.04.15"
 		},
 		{
@@ -222,8 +213,17 @@
 			"image": "https://movie-phinf.pstatic.net/20210423_241/1619153395154rf6YC_JPEG/movie_image.jpg",
 			"viewingAge": "청소년 관람불가",
 			"grade": "8.33",
-			"rate": "0.28",
+			"rate": "0.32",
 			"openingDate": "2021.05.01"
+		},
+		{
+			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=184366",
+			"title": "아무도 없는 곳",
+			"image": "https://movie-phinf.pstatic.net/20210318_169/1616050035638vpyp7_JPEG/movie_image.jpg",
+			"viewingAge": "15세 관람가",
+			"grade": "6.91",
+			"rate": "0.32",
+			"openingDate": "2021.03.31"
 		},
 		{
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=184518",
@@ -258,7 +258,7 @@
 			"image": "https://movie-phinf.pstatic.net/20210107_160/1609984702837oNdmw_JPEG/movie_image.jpg",
 			"viewingAge": "전체 관람가",
 			"grade": "9.30",
-			"rate": "0.16",
+			"rate": "0.15",
 			"openingDate": "2021.01.20"
 		},
 		{
@@ -267,7 +267,7 @@
 			"image": "https://movie-phinf.pstatic.net/20170315_53/148955223217831bi6_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
 			"grade": "8.48",
-			"rate": "0.16",
+			"rate": "0.15",
 			"openingDate": "2017.03.30"
 		},
 		{
@@ -284,7 +284,7 @@
 			"title": "유다 그리고 블랙 메시아",
 			"image": "https://movie-phinf.pstatic.net/20210402_169/1617346981208fOy5z_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
-			"grade": "7.42",
+			"grade": "7.44",
 			"rate": "0.13",
 			"openingDate": "2021.04.22"
 		},
@@ -302,16 +302,25 @@
 			"title": "배드 헤어",
 			"image": "https://movie-phinf.pstatic.net/20210427_264/1619505595636CnRHb_JPEG/movie_image.jpg",
 			"viewingAge": "15세 관람가",
-			"grade": "3.71",
-			"rate": "0.12",
+			"grade": "4.78",
+			"rate": "0.11",
 			"openingDate": "2021.05.05"
+		},
+		{
+			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=201920",
+			"title": "적호서생",
+			"image": "https://movie-phinf.pstatic.net/20210408_78/1617857011111FfSJs_JPEG/movie_image.jpg",
+			"viewingAge": "12세 관람가",
+			"grade": "7.83",
+			"rate": "0.11",
+			"openingDate": "2021.04.29"
 		},
 		{
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=195441",
 			"title": "파리의 별빛 아래",
 			"image": "https://movie-phinf.pstatic.net/20210412_144/1618203769055qkK5M_JPEG/movie_image.jpg",
 			"viewingAge": "전체 관람가",
-			"grade": "7.00",
+			"grade": "8.50",
 			"rate": "0.1",
 			"openingDate": "2021.05.05"
 		},
@@ -323,15 +332,6 @@
 			"grade": "9.00",
 			"rate": "0.1",
 			"openingDate": "2021.04.22"
-		},
-		{
-			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=201920",
-			"title": "적호서생",
-			"image": "https://movie-phinf.pstatic.net/20210408_78/1617857011111FfSJs_JPEG/movie_image.jpg",
-			"viewingAge": "12세 관람가",
-			"grade": "7.83",
-			"rate": "0.1",
-			"openingDate": "2021.04.29"
 		},
 		{
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=196979",
@@ -361,6 +361,15 @@
 			"openingDate": "2020.12.24"
 		},
 		{
+			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=194085",
+			"title": "더스트맨",
+			"image": "https://movie-phinf.pstatic.net/20210318_199/1616045593858wtxLk_JPEG/movie_image.jpg",
+			"viewingAge": "12세 관람가",
+			"grade": "8.88",
+			"rate": "0.05",
+			"openingDate": "2021.04.07"
+		},
+		{
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=35187",
 			"title": "피아니스트",
 			"image": "https://movie-phinf.pstatic.net/20210503_262/1620033652812BPhOh_JPEG/movie_image.jpg",
@@ -375,15 +384,6 @@
 			"image": "https://movie-phinf.pstatic.net/20210414_289/1618363382896pPmAf_JPEG/movie_image.jpg",
 			"viewingAge": "12세 관람가",
 			"grade": "8.78",
-			"rate": "0.04",
-			"openingDate": "2021.04.07"
-		},
-		{
-			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=194085",
-			"title": "더스트맨",
-			"image": "https://movie-phinf.pstatic.net/20210318_199/1616045593858wtxLk_JPEG/movie_image.jpg",
-			"viewingAge": "12세 관람가",
-			"grade": "8.88",
 			"rate": "0.04",
 			"openingDate": "2021.04.07"
 		},
@@ -548,6 +548,15 @@
 			"openingDate": "2021.02.04"
 		},
 		{
+			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=197520",
+			"title": "노바디 ",
+			"image": "https://movie-phinf.pstatic.net/20210412_226/1618192532740Fjxab_JPEG/movie_image.jpg",
+			"viewingAge": "15세 관람가",
+			"grade": "8.66",
+			"rate": "0.01",
+			"openingDate": "2021.04.07"
+		},
+		{
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=196529",
 			"title": "섀도우 클라우드",
 			"image": "https://movie-phinf.pstatic.net/20210409_164/1617948216566NUBhq_JPEG/movie_image.jpg",
@@ -600,15 +609,6 @@
 			"grade": "8.59",
 			"rate": "0.01",
 			"openingDate": "2020.07.08"
-		},
-		{
-			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=197520",
-			"title": "노바디 ",
-			"image": "https://movie-phinf.pstatic.net/20210412_226/1618192532740Fjxab_JPEG/movie_image.jpg",
-			"viewingAge": "15세 관람가",
-			"grade": "8.66",
-			"rate": "0.01",
-			"openingDate": "2021.04.07"
 		},
 		{
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=154573",
@@ -708,6 +708,15 @@
 			"grade": "8.56",
 			"rate": "0.01",
 			"openingDate": "2021.01.27"
+		},
+		{
+			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=120759",
+			"title": "스틸 앨리스",
+			"image": "https://movie-phinf.pstatic.net/20150424_218/1429839405863djz5d_JPEG/movie_image.jpg",
+			"viewingAge": "12세 관람가",
+			"grade": "8.53",
+			"rate": "0.01",
+			"openingDate": "2015.04.29"
 		},
 		{
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=91946",
@@ -938,14 +947,6 @@
 			"viewingAge": "15세 관람가",
 			"grade": "7.02",
 			"openingDate": "2013.10.17"
-		},
-		{
-			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=120759",
-			"title": "스틸 앨리스",
-			"image": "https://movie-phinf.pstatic.net/20150424_218/1429839405863djz5d_JPEG/movie_image.jpg",
-			"viewingAge": "12세 관람가",
-			"grade": "8.53",
-			"openingDate": "2015.04.29"
 		},
 		{
 			"link": "https://movie.naver.com//movie/bi/mi/basic.nhn?code=82283",
