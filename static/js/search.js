@@ -48,6 +48,7 @@ movieChart.search.formInit = query => {
     const selected = document.querySelector('.selected');
 
     movieChart.search.loading.classList.remove('hide');
+    movieChart.moveTab.sortMenu.classList.add('hide');
     movieChart.display.hide(movieChart.display.searchArea);
 
     selected && selected.classList.remove('selected');

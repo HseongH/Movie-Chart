@@ -51,6 +51,15 @@ header.section .search-area .search-close {
     width: 100%;
 }
 
+.section__show-movie .sort-menu .sort-items {
+    padding: 0 10px;
+    margin-right: 15px;
+}
+
+.section__show-movie .sort-menu .sort-items .btn {
+    font-size: 14px;
+}
+
 .section__show-movie .movie-display-area .movie-items .movie__des .movie__title {
     font-size: 20px;
 }

@@ -151,7 +151,8 @@ header.section .search-area .search-close {
     border-bottom: 1px solid #555;
 }
 
-.section__show-movie .tab-menu .menu-items {
+.section__show-movie .tab-menu .menu-items,
+.section__show-movie .sort-menu .sort-items {
     height: 100%;
     display: inline-flex;
     align-items: center;
@@ -167,6 +168,25 @@ header.section .search-area .search-close {
 
 .section__show-movie .tab-menu .menu-items.selected a {
     color: #C23838;
+}
+
+.section__show-movie .sort-menu {
+    height: 70px;
+    padding: 15px 0;
+    box-sizing: border-box;
+}
+
+.section__show-movie .sort-menu .sort-items {
+    padding: 0 20px;
+    margin-right: 15px;
+}
+
+.section__show-movie .sort-menu .sort-items:last-child {
+    margin-right: 0;
+}
+
+.section__show-movie .sort-menu .sort-items.selected {
+    background: #C23838;
 }
 
 .section__show-movie .movie-display-area {
